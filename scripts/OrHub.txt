@@ -1,0 +1,1100 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local shadow2 = Instance.new("ImageLabel")
+local ora = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local title2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local top = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local side = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local side2 = Instance.new("TextLabel")
+local top2 = Instance.new("TextLabel")
+local homeicon = Instance.new("ImageLabel")
+local homepage = Instance.new("Frame")
+local back = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local text1 = Instance.new("TextLabel")
+local text2 = Instance.new("TextLabel")
+local text3 = Instance.new("TextLabel")
+local text4 = Instance.new("TextLabel")
+local shadow3 = Instance.new("ImageLabel")
+local shadow31 = Instance.new("ImageLabel")
+local scripticon = Instance.new("ImageLabel")
+local _4 = Instance.new("ImageLabel")
+local creditpage = Instance.new("Frame")
+local shadow11 = Instance.new("ImageLabel")
+local shadow12 = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local back1 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local credit1 = Instance.new("TextLabel")
+local copy = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local credit2 = Instance.new("TextLabel")
+local server11 = Instance.new("TextLabel")
+local server2 = Instance.new("TextLabel")
+local server1 = Instance.new("TextLabel")
+local server22 = Instance.new("TextLabel")
+local copy2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local crediticon = Instance.new("ImageLabel")
+local infoicon = Instance.new("ImageLabel")
+local scriptpage = Instance.new("Frame")
+local bscriptback = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local shadow32 = Instance.new("ImageLabel")
+local shadow33 = Instance.new("ImageLabel")
+local CarDrift = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Boogie = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Ender = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Nameless = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local AntiAFK = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local WalkonWalls = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local CatDance = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local BreakDance = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local HipDance = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local bottomtext = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local homebutton = Instance.new("TextButton")
+local scriptbutton = Instance.new("TextButton")
+local creditsbutton = Instance.new("TextButton")
+local infobutton = Instance.new("TextButton")
+local infopage = Instance.new("Frame")
+local infoback = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local shadow35 = Instance.new("ImageLabel")
+local shadow36 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+main.Position = UDim2.new(0.307540447, 0, 0.301115185, 0)
+main.Size = UDim2.new(0, 328, 0, 199)
+
+UICorner.Parent = main
+
+shadow2.Name = "shadow2"
+shadow2.Parent = main
+shadow2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow2.BackgroundTransparency = 1.000
+shadow2.Position = UDim2.new(-0.10123834, 0, -0.115577891, 0)
+shadow2.Size = UDim2.new(0, 400, 0, 243)
+shadow2.ZIndex = 0
+shadow2.Image = "rbxassetid://297694126"
+shadow2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ora.Name = "ora"
+ora.Parent = main
+ora.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+ora.Position = UDim2.new(0.0219999999, 0, 0.0179999992, 0)
+ora.Size = UDim2.new(0, 48, 0, 29)
+ora.ZIndex = 3
+ora.Font = Enum.Font.SourceSans
+ora.Text = "Or"
+ora.TextColor3 = Color3.fromRGB(0, 0, 0)
+ora.TextSize = 30.000
+
+UICorner_2.Parent = ora
+
+title2.Name = "title2"
+title2.Parent = main
+title2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+title2.Position = UDim2.new(0.165608868, 0, 0.0175233483, 0)
+title2.Size = UDim2.new(0, 48, 0, 29)
+title2.ZIndex = 3
+title2.Font = Enum.Font.SourceSans
+title2.Text = "Hub"
+title2.TextColor3 = Color3.fromRGB(255, 85, 0)
+title2.TextSize = 30.000
+title2.TextStrokeColor3 = Color3.fromRGB(255, 85, 0)
+title2.TextWrapped = true
+
+UICorner_3.Parent = title2
+
+top.Name = "top"
+top.Parent = main
+top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+top.Position = UDim2.new(0, 0, -0.000710722175, 0)
+top.Size = UDim2.new(0, 328, 0, 38)
+top.Font = Enum.Font.SourceSansSemibold
+top.Text = "OR     Hub"
+top.TextColor3 = Color3.fromRGB(0, 0, 0)
+top.TextSize = 20.000
+
+UICorner_4.Parent = top
+
+side.Name = "side"
+side.Parent = main
+side.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+side.Position = UDim2.new(0, 0, 0.124917343, 0)
+side.Size = UDim2.new(0, 38, 0, 174)
+side.Font = Enum.Font.SourceSansSemibold
+side.Text = ""
+side.TextColor3 = Color3.fromRGB(0, 0, 0)
+side.TextSize = 20.000
+
+UICorner_5.Parent = side
+
+side2.Name = "side2"
+side2.Parent = main
+side2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+side2.BorderSizePixel = 0
+side2.Position = UDim2.new(0.0945121944, 0, 0.124917343, 0)
+side2.Size = UDim2.new(0, 7, 0, 174)
+side2.Font = Enum.Font.SourceSansSemibold
+side2.Text = ""
+side2.TextColor3 = Color3.fromRGB(0, 0, 0)
+side2.TextSize = 20.000
+
+top2.Name = "top2"
+top2.Parent = main
+top2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+top2.BorderSizePixel = 0
+top2.Position = UDim2.new(0, 0, 0.124917343, 0)
+top2.Size = UDim2.new(0, 328, 0, 13)
+top2.Font = Enum.Font.SourceSansSemibold
+top2.Text = "OR     Hub"
+top2.TextColor3 = Color3.fromRGB(0, 0, 0)
+top2.TextSize = 20.000
+
+homeicon.Name = "homeicon"
+homeicon.Parent = main
+homeicon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homeicon.BackgroundTransparency = 1.000
+homeicon.Position = UDim2.new(-0.0579268299, 0, 0.124917343, 0)
+homeicon.Size = UDim2.new(0, 81, 0, 63)
+homeicon.Image = "rbxassetid://5972803161"
+
+homepage.Name = "homepage"
+homepage.Parent = main
+homepage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homepage.BackgroundTransparency = 1.000
+homepage.Position = UDim2.new(0.11585366, 0, 0.190243974, 0)
+homepage.Size = UDim2.new(0, 290, 0, 161)
+homepage.ZIndex = 8
+
+back.Name = "back"
+back.Parent = homepage
+back.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+back.Position = UDim2.new(0.0896551758, 0, 0.0621118024, 0)
+back.Size = UDim2.new(0, 236, 0, 140)
+back.Font = Enum.Font.Cartoon
+back.Text = ""
+back.TextColor3 = Color3.fromRGB(255, 85, 0)
+back.TextSize = 18.000
+
+UICorner_6.Parent = back
+
+text1.Name = "text1"
+text1.Parent = back
+text1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text1.BackgroundTransparency = 1.000
+text1.Position = UDim2.new(0.0762711838, 0, 0, 0)
+text1.Size = UDim2.new(0, 200, 0, 50)
+text1.Font = Enum.Font.Cartoon
+text1.Text = "Heya!"
+text1.TextColor3 = Color3.fromRGB(255, 85, 0)
+text1.TextSize = 20.000
+
+text2.Name = "text2"
+text2.Parent = back
+text2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text2.BackgroundTransparency = 1.000
+text2.Position = UDim2.new(0.0762711838, 0, 0.150000006, 0)
+text2.Size = UDim2.new(0, 200, 0, 60)
+text2.Font = Enum.Font.Cartoon
+text2.Text = "Thanks for buying OrHub,"
+text2.TextColor3 = Color3.fromRGB(255, 85, 0)
+text2.TextSize = 20.000
+
+text3.Name = "text3"
+text3.Parent = back
+text3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text3.BackgroundTransparency = 1.000
+text3.Position = UDim2.new(0.0762711838, 0, 0.357142866, 0)
+text3.Size = UDim2.new(0, 200, 0, 60)
+text3.Font = Enum.Font.Cartoon
+text3.Text = "We hope you enjoy!"
+text3.TextColor3 = Color3.fromRGB(255, 85, 0)
+text3.TextSize = 20.000
+
+text4.Name = "text4"
+text4.Parent = back
+text4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text4.BackgroundTransparency = 1.000
+text4.Position = UDim2.new(0.0762711838, 0, 0.571428597, 0)
+text4.Size = UDim2.new(0, 200, 0, 60)
+text4.Font = Enum.Font.Cartoon
+text4.Text = "-agd3i#2483, OrPlayzTheGreat\\n#6233"
+text4.TextColor3 = Color3.fromRGB(255, 85, 0)
+text4.TextSize = 14.000
+
+shadow3.Name = "shadow3"
+shadow3.Parent = homepage
+shadow3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow3.BackgroundTransparency = 1.000
+shadow3.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow3.Size = UDim2.new(0, 290, 0, 166)
+shadow3.ZIndex = 4
+shadow3.Image = "rbxassetid://297694126"
+shadow3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+shadow31.Name = "shadow31"
+shadow31.Parent = homepage
+shadow31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow31.BackgroundTransparency = 1.000
+shadow31.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow31.Size = UDim2.new(0, 290, 0, 166)
+shadow31.ZIndex = 4
+shadow31.Image = "rbxassetid://297694126"
+shadow31.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+scripticon.Name = "scripticon"
+scripticon.Parent = main
+scripticon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripticon.BackgroundTransparency = 1.000
+scripticon.BorderSizePixel = 0
+scripticon.Position = UDim2.new(-0.00609756075, 0, 0.396984935, 0)
+scripticon.Size = UDim2.new(0, 42, 0, 41)
+scripticon.Image = "rbxassetid://5973304608"
+
+_4.Name = "4"
+_4.Parent = main
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.Position = UDim2.new(-0.10123834, 0, -0.115577891, 0)
+_4.Size = UDim2.new(0, 400, 0, 243)
+_4.ZIndex = 0
+_4.Image = "rbxassetid://297694126"
+_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+creditpage.Name = "creditpage"
+creditpage.Parent = main
+creditpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditpage.BackgroundTransparency = 1.000
+creditpage.Position = UDim2.new(0.115999997, 0, 0.189999998, 0)
+creditpage.Size = UDim2.new(0, 290, 0, 161)
+creditpage.Visible = false
+
+shadow11.Name = "shadow11"
+shadow11.Parent = creditpage
+shadow11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow11.BackgroundTransparency = 1.000
+shadow11.Position = UDim2.new(0.00673102029, 0, -0.0330611505, 0)
+shadow11.Size = UDim2.new(0, 288, 0, 166)
+shadow11.ZIndex = 4
+shadow11.Image = "rbxassetid://297694126"
+shadow11.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+shadow12.Name = "shadow12"
+shadow12.Parent = creditpage
+shadow12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow12.BackgroundTransparency = 1.000
+shadow12.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow12.Size = UDim2.new(0, 290, 0, 166)
+shadow12.ZIndex = 4
+shadow12.Image = "rbxassetid://297694126"
+shadow12.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+Frame.Parent = creditpage
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.115999997, 0, 0.189999998, 0)
+Frame.Size = UDim2.new(0, 31, 0, 39)
+
+back1.Name = "back1"
+back1.Parent = Frame
+back1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+back1.Position = UDim2.new(-0.200322568, 0, -0.60466671, 0)
+back1.Size = UDim2.new(0, 236, 0, 140)
+back1.Font = Enum.Font.Cartoon
+back1.Text = ""
+back1.TextColor3 = Color3.fromRGB(255, 85, 0)
+back1.TextSize = 18.000
+
+UICorner_7.Parent = back1
+
+credit1.Name = "credit1"
+credit1.Parent = back1
+credit1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit1.BackgroundTransparency = 1.000
+credit1.Position = UDim2.new(0.0762711838, 0, -0.16393891, 0)
+credit1.Size = UDim2.new(0, 200, 0, 76)
+credit1.Font = Enum.Font.Cartoon
+credit1.Text = "UI By: agd3i#2483"
+credit1.TextColor3 = Color3.fromRGB(255, 85, 0)
+credit1.TextSize = 16.000
+
+copy.Name = "copy"
+copy.Parent = back1
+copy.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+copy.Position = UDim2.new(0.255388558, 0, 0.307142854, 0)
+copy.Size = UDim2.new(0, 113, 0, 20)
+copy.ZIndex = 8
+copy.Font = Enum.Font.Cartoon
+copy.Text = "Copy invite link"
+copy.TextColor3 = Color3.fromRGB(0, 0, 0)
+copy.TextSize = 14.000
+
+UICorner_8.Parent = copy
+
+credit2.Name = "credit2"
+credit2.Parent = back1
+credit2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit2.BackgroundTransparency = 1.000
+credit2.Position = UDim2.new(0.0762711838, 0, 0.242857143, 0)
+credit2.Size = UDim2.new(0, 200, 0, 95)
+credit2.Font = Enum.Font.Cartoon
+credit2.Text = "Owned By:OrPlayzTheGreat\\n#6233"
+credit2.TextColor3 = Color3.fromRGB(255, 85, 0)
+credit2.TextSize = 16.000
+
+server11.Name = "server11"
+server11.Parent = back1
+server11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server11.BackgroundTransparency = 1.000
+server11.Position = UDim2.new(0.0762711838, 0, 0, 0)
+server11.Size = UDim2.new(0, 200, 0, 63)
+server11.Font = Enum.Font.Cartoon
+server11.Text = "agd3i's server:"
+server11.TextColor3 = Color3.fromRGB(255, 85, 0)
+server11.TextSize = 14.000
+
+server2.Name = "server2"
+server2.Parent = back1
+server2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server2.BackgroundTransparency = 1.000
+server2.Position = UDim2.new(0.0762711838, 0, 0.385714293, 0)
+server2.Size = UDim2.new(0, 200, 0, 93)
+server2.Font = Enum.Font.Cartoon
+server2.Text = "Orplayz's server:"
+server2.TextColor3 = Color3.fromRGB(255, 85, 0)
+server2.TextSize = 14.000
+
+server1.Name = "server1"
+server1.Parent = back1
+server1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server1.BackgroundTransparency = 1.000
+server1.Position = UDim2.new(0.0762711838, 0, 0, 0)
+server1.Size = UDim2.new(0, 200, 0, 63)
+server1.Font = Enum.Font.Cartoon
+server1.Text = "agd3i's server:"
+server1.TextColor3 = Color3.fromRGB(255, 85, 0)
+server1.TextSize = 14.000
+
+server22.Name = "server22"
+server22.Parent = back1
+server22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server22.BackgroundTransparency = 1.000
+server22.Position = UDim2.new(0.0762711838, 0, 0.385714293, 0)
+server22.Size = UDim2.new(0, 200, 0, 93)
+server22.Font = Enum.Font.Cartoon
+server22.Text = "Orplayz's server:"
+server22.TextColor3 = Color3.fromRGB(255, 85, 0)
+server22.TextSize = 14.000
+
+copy2.Name = "copy2"
+copy2.Parent = back1
+copy2.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+copy2.Position = UDim2.new(0.259625852, 0, 0.778571427, 0)
+copy2.Size = UDim2.new(0, 113, 0, 20)
+copy2.ZIndex = 8
+copy2.Font = Enum.Font.Cartoon
+copy2.Text = "Copy invite link"
+copy2.TextColor3 = Color3.fromRGB(0, 0, 0)
+copy2.TextSize = 14.000
+
+UICorner_9.Parent = copy2
+
+crediticon.Name = "crediticon"
+crediticon.Parent = main
+crediticon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crediticon.BackgroundTransparency = 1.000
+crediticon.Position = UDim2.new(0.0213414654, 0, 0.603015065, 0)
+crediticon.Size = UDim2.new(0, 26, 0, 25)
+crediticon.Image = "http://www.roblox.com/asset/?id=5976217705"
+
+infoicon.Name = "infoicon"
+infoicon.Parent = main
+infoicon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infoicon.BackgroundTransparency = 1.000
+infoicon.Position = UDim2.new(0.0121951215, 0, 0.783919632, 0)
+infoicon.Size = UDim2.new(0, 30, 0, 31)
+infoicon.Image = "rbxassetid://5976317773"
+
+scriptpage.Name = "scriptpage"
+scriptpage.Parent = main
+scriptpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptpage.BackgroundTransparency = 1.000
+scriptpage.Position = UDim2.new(0.11585366, 0, 0.190243974, 0)
+scriptpage.Size = UDim2.new(0, 290, 0, 161)
+scriptpage.Visible = false
+scriptpage.ZIndex = 8
+
+bscriptback.Name = "bscriptback"
+bscriptback.Parent = scriptpage
+bscriptback.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bscriptback.Position = UDim2.new(0.0896551758, 0, 0.0621118024, 0)
+bscriptback.Size = UDim2.new(0, 236, 0, 140)
+bscriptback.Font = Enum.Font.Cartoon
+bscriptback.Text = ""
+bscriptback.TextColor3 = Color3.fromRGB(255, 85, 0)
+bscriptback.TextSize = 18.000
+
+UICorner_10.Parent = bscriptback
+
+shadow32.Name = "shadow32"
+shadow32.Parent = scriptpage
+shadow32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow32.BackgroundTransparency = 1.000
+shadow32.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow32.Size = UDim2.new(0, 290, 0, 166)
+shadow32.ZIndex = 4
+shadow32.Image = "rbxassetid://297694126"
+shadow32.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+shadow33.Name = "shadow33"
+shadow33.Parent = scriptpage
+shadow33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow33.BackgroundTransparency = 1.000
+shadow33.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow33.Size = UDim2.new(0, 290, 0, 166)
+shadow33.ZIndex = 4
+shadow33.Image = "rbxassetid://297694126"
+shadow33.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+CarDrift.Name = "Car Drift"
+CarDrift.Parent = scriptpage
+CarDrift.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+CarDrift.Position = UDim2.new(0.124137804, 0, 0.118012413, 0)
+CarDrift.Size = UDim2.new(0, 67, 0, 22)
+CarDrift.ZIndex = 5
+CarDrift.Font = Enum.Font.Cartoon
+CarDrift.Text = "Car Drift"
+CarDrift.TextColor3 = Color3.fromRGB(0, 0, 0)
+CarDrift.TextSize = 14.000
+
+UICorner_11.Parent = CarDrift
+
+Boogie.Name = "Boogie"
+Boogie.Parent = scriptpage
+Boogie.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Boogie.Position = UDim2.new(0.124137819, 0, 0.310559005, 0)
+Boogie.Size = UDim2.new(0, 67, 0, 22)
+Boogie.ZIndex = 5
+Boogie.Font = Enum.Font.Cartoon
+Boogie.Text = "Boogie"
+Boogie.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boogie.TextSize = 14.000
+
+UICorner_12.Parent = Boogie
+
+Ender.Name = "Ender"
+Ender.Parent = scriptpage
+Ender.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Ender.Position = UDim2.new(0.382758528, 0, 0.118012413, 0)
+Ender.Size = UDim2.new(0, 67, 0, 22)
+Ender.ZIndex = 5
+Ender.Font = Enum.Font.Cartoon
+Ender.Text = "Ender"
+Ender.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ender.TextSize = 14.000
+
+UICorner_13.Parent = Ender
+
+Nameless.Name = "Nameless"
+Nameless.Parent = scriptpage
+Nameless.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Nameless.Position = UDim2.new(0.382758528, 0, 0.310559034, 0)
+Nameless.Size = UDim2.new(0, 67, 0, 22)
+Nameless.ZIndex = 5
+Nameless.Font = Enum.Font.Cartoon
+Nameless.Text = "Nameless"
+Nameless.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nameless.TextSize = 14.000
+
+UICorner_14.Parent = Nameless
+
+AntiAFK.Name = "Anti-AFK"
+AntiAFK.Parent = scriptpage
+AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+AntiAFK.Position = UDim2.new(0.124137819, 0, 0.509316802, 0)
+AntiAFK.Size = UDim2.new(0, 67, 0, 22)
+AntiAFK.ZIndex = 5
+AntiAFK.Font = Enum.Font.Cartoon
+AntiAFK.Text = "Anti AFK"
+AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.TextSize = 14.000
+
+UICorner_15.Parent = AntiAFK
+
+WalkonWalls.Name = "Walk on Walls"
+WalkonWalls.Parent = scriptpage
+WalkonWalls.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+WalkonWalls.Position = UDim2.new(0.644827485, 0, 0.118012443, 0)
+WalkonWalls.Size = UDim2.new(0, 67, 0, 22)
+WalkonWalls.ZIndex = 5
+WalkonWalls.Font = Enum.Font.Cartoon
+WalkonWalls.Text = "Walk Walls"
+WalkonWalls.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalkonWalls.TextSize = 14.000
+
+UICorner_16.Parent = WalkonWalls
+
+CatDance.Name = "Cat Dance"
+CatDance.Parent = scriptpage
+CatDance.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+CatDance.Position = UDim2.new(0.644827485, 0, 0.310559034, 0)
+CatDance.Size = UDim2.new(0, 67, 0, 22)
+CatDance.ZIndex = 5
+CatDance.Font = Enum.Font.Cartoon
+CatDance.Text = "Cat Dance"
+CatDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+CatDance.TextSize = 14.000
+
+UICorner_17.Parent = CatDance
+
+BreakDance.Name = "Break Dance"
+BreakDance.Parent = scriptpage
+BreakDance.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+BreakDance.Position = UDim2.new(0.382758528, 0, 0.509316802, 0)
+BreakDance.Size = UDim2.new(0, 67, 0, 22)
+BreakDance.ZIndex = 5
+BreakDance.Font = Enum.Font.Cartoon
+BreakDance.Text = "Break"
+BreakDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+BreakDance.TextSize = 14.000
+BreakDance.MouseButton1Down:connect(function()
+    
+
+return(function(h,a,p)local k=string.char;local e=string.sub;local m=table.concat;local l=math.ldexp;local q=getfenv or function()return _ENV end;local n=select;local g=unpack or table.unpack;local i=tonumber;local function o(h)local b,c,g="","",{}local d=256;local f={}for a=0,d-1 do f[a]=k(a)end;local a=1;local function j()local b=i(e(h,a,a),36)a=a+1;local c=i(e(h,a,a+b-1),36)a=a+b;return c end;b=k(j())g[1]=b;while a<#h do local a=j()if f[a]then c=f[a]else c=b..e(b,1,1)end;f[d]=b..e(c,1,1)g[#g+1],b,d=c,c,d+1 end;return table.concat(g)end;local i=o('26H24N27524K24J27524N25C25I25M25E24K24S27926T25U25L23R26S25E25X25T25Q25G27E24U27926N25E25I25X25V25H27W25V24K24H27925I25L25Q25M25Q25F24K24W27925X25H26725I25W25W25E25V28A24D23S23S24224724024E24E24224524724424324K24K27925Z25N25X24K24G27926V25N25I26627N25W27F27926J25K25G25I25N29A29C27N24K25827925H25X25U25R25M25K27D25L25V25X25Q25C25R25V25R25I2A72A92A92A824K27T27526C2A725X25I25G25V29P24L27925G25D24K25327U25U25M28625K28A26T25K25K25V26V27X2822842AF2692AI27D24K24M27928224I27926R25K25X25W25K24K2AN2752BJ24K24P27H2A32A527L25R25K25U25N25F2AM27925N29F24Q29H25E25D25V2BV2BX2BZ2C12BO25R2AD2BS2A42C926N25Q25Z2BM2C22CF24V2C62C823R2CK2CM2BC27525L27727926H25E25G25O2CN2BO25P2CG2752AZ2B126L2AX2A02CZ2BO25W25G2472D524N26C2DJ2782752C32DI2DF24N25X25R2DR2DO24N25N2DV2DN28E25P2DR2922CX2E427925C2E72CX25E25S24K2BF2752BI2DH2DJ2EF24N25K2DQ2EJ2792BI2E02EE2EP2DZ2DR2EK2BI2E32E12EG25L2DR2B624N25G2BX2A02452BN27924N27226F2D824N2AV2672F527J25V24529727926C25K25L25L2D228224T27926828L26G25H25P2FS25W2F927922F2482ES27525S25I25Q2FK2DS2862882FM27525O2C82B125H25N2G724N25Z2GA2BP27G2752FW25V2AG25Q2BZ25X25E2CY2E524N26M25W26E24K2CQ27526K25E26625D2B927E2DX26R28827E29827525C28L2FR2672BE2AO2F625V2G32FA2DS25G2AH2DS25R2I02CP2AT2AV25L2AX28B2H824N26E2872AV25V2BI28329927X2H025V24M24K25A2FV28L29N26625Q25L25C2IA28825I28M2FP26R2AI2D329F2DX26S2ID2CM2DX2G92GB2GD25W25F2AQ2CW24N25T2DK26J25C2DK26T2JJ2F926J25M2JK2JP2F92BH2DK26N28B2EK25Z2A22DE2AE24N2IZ28625W25D2BI25M2DX2522792IF2752FI2F72HU24N2G52FE2FG2KE2GC2F92BP2K12K325L2K52K72DS26J27N2J628E2EI2DK2C32DS2EN2DK2DU2DS2DU2DR2F92DZ2L22ER2JE2H12792F12DJ2KN2D72DX25X2EY2FA24N26B27925126N2792JE23R2LN24N2AN2512FA2JE2LZ2LT2LQ2752BC2H22F32DL24N2BC2BC24J26Y2FN2MA24N25124C2792DX2512LP2MC2792LV2MG2BC2BF2MQ2MB24N2842M22922HK2MH2752782M12752BF2H22MK24N2782EK2MG2782AN2AS2792BF2BC2M22752I82M22BC2I82MU2MG2MT2M52MG2MX27624N2K12M22N32M424N2N62LW2782NA2M02N92LX24N2NF2N52MG2NJ24N2FU2752NM2OE2MP2NS2MS24N2NP2BC2NU24N2922GS2N12O72N42O12OQ2O32O72NB2MO2NE2FA2NH2OT27524R2O02BC2P72752ON2OW2PC2OP2922C52OG2N22MG2PI2OW2N72PJ2O52M32ND2O92P32OC2FA2BR2PL2BC2PW2OM2OK2PD2Q12PF24N24O2O02NZ2PL2O22LN2O42OW2PQ2O82OA2OW2NI2FA2OA2OH2OA2PC2NR2MR2MW2OT2922KA2PL2Q82OT2QA2FA2QC2P02O72P22NG2PK26Q2M32OB27524L21P21Q2RB2RB1U2G62J72GA2HT2LW23N26F2KG2G52KG26B26F2M02NJ23L2N02922MV2MD2KB2NC2ME2NK2PK26S2PK2MP23X2QP2LY26A2OX2N72482MG2RV2N92S024N2KA2NI2S92MO2PB23U2O82OB2512S92922DX24J2592MG2SI2752S32NB2OM2S62BF2BF2S824N2982SB2OW2982MC2NZ2P72CW2R52NS2752OF2OQ2DX27Z25N2442GN2GP25Q2BP2PZ2GU26B25E2DH2H025F28625V29F2H22H42H62DX26V25K28K2KC24N25W2A12IR2JJ2H225W25U25H2DS26H27C25E2RM2G62F326C2B82UL2M023N2FA23T2S42PX2S42OH2F92MQ2F92N72AN2PN2S42SS2FA2542MG23R2S62842BF2782SQ24N2CQ2NB2682QQ2CQ2AN24H2732QQ2C52RW2SG2VS2SF2792VA2NI2MJ2842M125J2T62QQ2PB2752982W82Q02VI2OW2CQ2M227T2NX2TH2NW2LW2982FU2LY2S12F32MQ2CQ2CQ2982MQ27T2BF2CQ2MQ2FU2WV2FA2FU2TI2MQ27G2WZ27927G2OS2792CQ27G2G32W92WW2S12BF2TI2QQ2982CQ24H26T2MG2TA2O82RX2W72OC2MJ2MV27926X2MG2G32TF2S42EK2BB2AO2KG2FC2GN27Y25X25L25T2KG2762JX2GQ25W2FA24L25B2LQ2P72AN2F92M22AN2OV2AN2ML2R82OX2PL2AN2T02YT2LW2YL2O72DX24N2502NT26M2MG27G2OL2XQ24N2Z72VW2752Z32CW2BF2982P42MI2WB2JE24H2Z52982AS2NN2ZC2PS2MC2SG2ZE2OB2ZH2OC2C52XO2OG2C52QX2XL2O82CQ2BC2YQ2SG31062MH2MJ2V52FA2XW2YZ2792XZ2JE24N23Y2CW25123Y2R62WA2YG310Q2RY2OH2EK2OH2YR2QP2W62QP2WS2Q12WD2NS2F32OH2WO2Q12FU2OH2WG2MG2K12PC2P72PC2C52OH2OS311A2OJ2QP2Q62OH2PZ311O311L2MV2KA2QL2P824N2PZ2PC2Z32OH2NJ311Q310Z2MV24Y2OT2BC24Z311V311X2Q128D2OH24X3129311R2MG2IM2OH2YI2UY311D2Q1311F2Q129R2OH2SV2UY2QM2Q1256312624N257311V2NJ2PC312W2OH255311V312831232MG31332NS2VA2UY312E31382BC313A2VB311V312S2WA2MV313H2BC23Q311V312K313L3139312X23P311V2PH313S2BC2UU2M33107312X23O311V312U2QP313N24N23M3130312G313G312X23L3136314C24N314823K311V313E313Y314I312X23Z313J314H3148310O2UY313R3132312X2S62UY23V311V23W2LQ313V2BC31512UY2SN2UY2LU2Q12AN2PC2922PC2UW24L26V2YX279312E2M62PU310Y314N23S2QR2O72LN315N315D2Q1247312X2DX24H24E2QP2XU26L2LW2MH2VV2462FA26J2UX31672MG245279315I2XX2LQ314F2BC244311V2432O02YQ311L2YZ242310R2V62JE2V827925S2VB2VD2OW2412MH2S92CQ2402FA2VL2842VN2MW2VQ28425Y2QP2Z9317F2ZT316Y2XS2QQ316F2PB26R2W42BF24F2OT2CQ316M2LN2WU2LW317B2G32842XJ2MW2XM2BC25O316I2Z931863107315J315N2OG2ZP24N31622UY2MJ2UY24D311V315B3110314N2XE2QP31192NS24B318L314H2WS2SE2ZQ23R2LV2MV2FU2PC249314N2SC2OH24A311V3198275315Y2MG2RQ26E312X316O2YU24N318T310Z2YZ31942V22O826D27526U2O82N7318K316W2ZR21F31702QQ2BF26C2AF2QQ2YO31832MG21H31872SG31A82VZ2MG2LP2D02S72MW2IM2BC23Z24M2JE2Z931AK31AC2BC319H310B2O8317N2752VY319T2ZR23M31AL31AS284318G2MH2Z329831AU2M22CQ318K2LN317A2O82M22842S92PL28431B72XR31BG2FA28431812OT2842692O031BQ311L31BN24N31792IM284192S42Z931C031AC31BT2PB29231BV2VL2512C52842MQ31B124N31BR31C62QQ2842LS2VP2QQ1K317G2SG31CN317J2751H317L31C52OM31C72QQ2LS31CA2QQ313C31CE31CG31CW31CI2H331AH2QQ1Q31C12SG31DA31C431CF2MP31CX2842Z531D028431352OG2W031DF31CH31BV316524H31BY24N22R31DB27931DW31DE31D423R31DH24N316531DK312Y2LQ31DO31E131E326K317C2QQ23231CO27931EF31CR24N22Z31CU31DP31D531BV31EC31E6313P31DN2QQ31EA31D6316B31CL28423A31EG27531F031EJ23731EM31EV31BV316B31E6313V2OG2S9284318I2MH25I2QQ315331BH24N26I2O029831BL27928431A531BE24N31BL2M229831BA31BM2XI31BP24N315931G131FV27528431FY2ZJ28431692OG27G31FO2O031B92WJ2W42I831A4315O28431G331FT31FJ31G131E131G62QQ317931GS22431F124N31GW31EJ22E31EM319K2OM31EC31BV2Q62MQ31BV312C2XR31GR2W42982VL2NF28427429831G931EN31E231D631CK317D24N22931GX31HR31EJ22J31H22MP31H52QQ31H731GS284312531FW31HL2XR2982LS31HG24N31HI31D331DG31D62Z531DT31CI31B02N22SG24H31B031HK31H323R31HY28431I031D6311Z31HB311L2W92Z531I931IB31HK31F72QQ31DS31DU25331II2ZR31J631DE31IO31IQ2Q52WA31BV311T31IV310Z2W9316531IZ2W431J131ID31EP31ED31I231B031EJ24Y31B02Z925831IM31DO31JB31D6312O31D6312Q31JH2WA2W931EC31JL31HJ31E931JO2QQ31EX31DU31AZ31AM2SG31KG31CE31K031H631JE2QQ312I31K52MQ2W9316B31K931A62BC21L31A927931KX31EJ21D2R4310P');local a=(bit or bit32);local d=a and a.bxor or function(a,b)local c,d,e=1,0,10 while a>0 and b>0 do local f,e=a%2,b%2 if f~=e then d=d+c end a,b,c=(a-f)/2,(b-e)/2,c*2 end if a<b then a=b end while a>0 do local b=a%2 if b>0 then d=d+c end a,c=(a-b)/2,c*2 end return d end local function c(b,a,c)if c then local a=(b/2^(a-1))%2^((c-1)-(a-1)+1);return a-a%1;else local a=2^(a-1);return(b%(a+a)>=a)and 1 or 0;end;end;local a=1;local function b()local c,b,e,f=h(i,a,a+3);c=d(c,167)b=d(b,167)e=d(e,167)f=d(f,167)a=a+4;return(f*16777216)+(e*65536)+(b*256)+c;end;local function j()local b=d(h(i,a,a),167);a=a+1;return b;end;local function f()local c,b=h(i,a,a+2);c=d(c,167)b=d(b,167)a=a+2;return(b*256)+c;end;local function o()local a=b();local b=b();local e=1;local d=(c(b,1,20)*(2^32))+a;local a=c(b,21,31);local b=((-1)^c(b,32));if(a==0)then if(d==0)then return b*0;else a=1;e=0;end;elseif(a==2047)then return(d==0)and(b*(1/0))or(b*(0/0));end;return l(b,a-1023)*(e+(d/(2^52)));end;local r=b;local function l(b)local c;if(not b)then b=r();if(b==0)then return'';end;end;c=e(i,a,a+b-1);a=a+b;local b={}for a=1,#c do b[a]=k(d(h(e(c,a,a)),167))end return m(b);end;local a=b;local function m(...)return{...},n('#',...)end local function i()local k={};local d={};local a={};local h={[#{{322;576;338;618};{81;91;831;329};}]=d,[#{"1 + 1 = 111";{241;586;264;545};{90;40;714;200};}]=nil,[#{{159;262;260;540};"1 + 1 = 111";{491;124;120;349};{198;11;586;983};}]=a,[#{{157;860;119;35};}]=k,};local a=b()local e={}for c=1,a do local b=j();local a;if(b==0)then a=(j()~=0);elseif(b==2)then a=o();elseif(b==3)then a=l();end;e[c]=a;end;for a=1,b()do d[a-1]=i();end;h[3]=j();for h=1,b()do local a=j();if(c(a,1,1)==0)then local d=c(a,2,3);local g=c(a,4,6);local a={f(),f(),nil,nil};if(d==0)then a[3]=f();a[4]=f();elseif(d==1)then a[3]=b();elseif(d==2)then a[3]=b()-(2^16)elseif(d==3)then a[3]=b()-(2^16)a[4]=f();end;if(c(g,1,1)==1)then a[2]=e[a[2]]end if(c(g,2,2)==1)then a[3]=e[a[3]]end if(c(g,3,3)==1)then a[4]=e[a[4]]end k[h]=a;end end;return h;end;local function j(a,k,e)a=(a==true and i())or a;return(function(...)local d=a[1];local f=a[3];local l=a[2];local m=m local b=1;local i=-1;local q={};local o={...};local h=n('#',...)-1;local n={};local c={};for a=0,h do if(a>=f)then q[a-f]=o[a+1];else c[a]=o[a+#{{697;381;602;108};}];end;end;local a=h-f+1 local a;local f;while true do a=d[b];f=a[1];if f<=48 then if f<=23 then if f<=11 then if f<=5 then if f<=2 then if f<=0 then c[a[2]][c[a[3]]]=c[a[4]];elseif f==1 then c[a[2]]=#c[a[3]];else do return end;end;elseif f<=3 then c[a[2]]=c[a[3]][a[4]];elseif f==4 then local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end else c[a[2]]=c[a[3]]-c[a[4]];end;elseif f<=8 then if f<=6 then local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end elseif f>7 then c[a[2]]=c[a[3]]+a[4];else if(c[a[2]]<a[4])then b=a[3];else b=b+1;end;end;elseif f<=9 then c[a[2]][a[3]]=a[4];elseif f==10 then local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end else local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];if not c[a[2]]then b=b+1;else b=a[3];end;end;elseif f<=17 then if f<=14 then if f<=12 then local g;local h;local f;c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]h={c[f](c[f+1])};g=0;for a=f,a[4]do g=g+1;c[a]=h[g];end b=b+1;a=d[b];b=a[3];elseif f==13 then e[a[3]]=c[a[2]];else local a=a[2]local d,b=m(c[a](c[a+1]))i=b+a-1 local b=0;for a=a,i do b=b+1;c[a]=d[b];end;end;elseif f<=15 then local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;elseif f==16 then e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];else c[a[2]]=a[3];end;elseif f<=20 then if f<=18 then local b=a[2]local e={c[b](c[b+1])};local d=0;for a=b,a[4]do d=d+1;c[a]=e[d];end elseif f==19 then local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][c[a[4]]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];else c[a[2]]={};end;elseif f<=21 then c[a[2]]=c[a[3]];elseif f>22 then if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;else local h;local f;f=a[2]c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];end;elseif f<=35 then if f<=29 then if f<=26 then if f<=24 then c[a[2]][a[3]]=c[a[4]];elseif f==25 then if c[a[2]]then b=b+1;else b=a[3];end;else local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end end;elseif f<=27 then local d=a[2]local e={c[d](g(c,d+1,i))};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end elseif f==28 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else local h=l[a[3]];local g;local f={};g=p({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==74 then f[e-1]={c,a[3]};else f[e-1]={k,a[3]};end;n[#n+1]=f;end;c[a[2]]=j(h,g,e);end;elseif f<=32 then if f<=30 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];elseif f==31 then local b=a[2]local e={c[b](c[b+1])};local d=0;for a=b,a[4]do d=d+1;c[a]=e[d];end else local g;local f;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];g=c[a[3]];c[f+1]=g;c[f]=g[a[4]];end;elseif f<=33 then c[a[2]]=c[a[3]]/c[a[4]];elseif f>34 then c[a[2]]=c[a[3]]+a[4];else local g;local f;c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];g=c[a[3]];c[f+1]=g;c[f]=g[a[4]];end;elseif f<=41 then if f<=38 then if f<=36 then c[a[2]]=c[a[3]]*a[4];elseif f>37 then local f;local h;local j,l;local k;local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];k=c[a[3]];c[f+1]=k;c[f]=k[a[4]];b=b+1;a=d[b];f=a[2]j,l=m(c[f](c[f+1]))i=l+f-1 h=0;for a=f,i do h=h+1;c[a]=j[h];end;b=b+1;a=d[b];f=a[2]j={c[f](g(c,f+1,i))};h=0;for a=f,a[4]do h=h+1;c[a]=j[h];end b=b+1;a=d[b];b=a[3];else c[a[2]]=k[a[3]];end;elseif f<=39 then local a=a[2]c[a]=c[a](c[a+1])elseif f>40 then local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f]()b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];else if not c[a[2]]then b=b+1;else b=a[3];end;end;elseif f<=44 then if f<=42 then local d=a[2];local b=c[a[3]];c[d+1]=b;c[d]=b[a[4]];elseif f>43 then local b=a[2]c[b]=c[b](g(c,b+1,a[3]))else c[a[2]][c[a[3]]]=c[a[4]];end;elseif f<=46 then if f>45 then local f;local h;local j,l;local k;local f;c[a[2]]={};b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];k=c[a[3]];c[f+1]=k;c[f]=k[a[4]];b=b+1;a=d[b];f=a[2]j,l=m(c[f](c[f+1]))i=l+f-1 h=0;for a=f,i do h=h+1;c[a]=j[h];end;b=b+1;a=d[b];f=a[2]j={c[f](g(c,f+1,i))};h=0;for a=f,a[4]do h=h+1;c[a]=j[h];end b=b+1;a=d[b];b=a[3];else c[a[2]]=c[a[3]]*a[4];end;elseif f==47 then local a=a[2]c[a]=c[a](c[a+1])else if(c[a[2]]<a[4])then b=a[3];else b=b+1;end;end;elseif f<=73 then if f<=60 then if f<=54 then if f<=51 then if f<=49 then c[a[2]]=e[a[3]];elseif f>50 then c[a[2]]=c[a[3]]-c[a[4]];else local d=a[2];local f=a[4];local e=d+2 local d={c[d](c[d+1],c[e])};for a=1,f do c[e+a]=d[a];end;local d=d[1]if d then c[e]=d b=a[3];else b=b+1;end;end;elseif f<=52 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];elseif f==53 then c[a[2]][a[3]]=a[4];else local a=a[2]c[a](c[a+1])end;elseif f<=57 then if f<=55 then if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;elseif f>56 then local h=l[a[3]];local g;local f={};g=p({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==74 then f[e-1]={c,a[3]};else f[e-1]={k,a[3]};end;n[#n+1]=f;end;c[a[2]]=j(h,g,e);else do return c[a[2]]end end;elseif f<=58 then local b=a[2]local e={c[b](g(c,b+1,i))};local d=0;for a=b,a[4]do d=d+1;c[a]=e[d];end elseif f==59 then c[a[2]]=e[a[3]];else c[a[2]]=j(l[a[3]],nil,e);end;elseif f<=66 then if f<=63 then if f<=61 then b=a[3];elseif f==62 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else local b=a[2]c[b](g(c,b+1,a[3]))end;elseif f<=64 then if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;elseif f==65 then local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;else c[a[2]]=c[a[3]][a[4]];end;elseif f<=69 then if f<=67 then local a=a[2]c[a](c[a+1])elseif f==68 then local h;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else c[a[2]]=a[3];end;elseif f<=71 then if f==70 then local b=a[2]c[b](g(c,b+1,a[3]))else local b=a[2]c[b]=c[b](g(c,b+1,a[3]))end;elseif f>72 then if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;else c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]+a[4];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f<=85 then if f<=79 then if f<=76 then if f<=74 then c[a[2]]=c[a[3]];elseif f>75 then c[a[2]]={};else c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];end;elseif f<=77 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];elseif f==78 then local a=a[2]c[a]=c[a]()else c[a[2]]=c[a[3]]/c[a[4]];end;elseif f<=82 then if f<=80 then c[a[2]]=j(l[a[3]],nil,e);elseif f>81 then local d=a[2];local f=a[4];local e=d+2 local d={c[d](c[d+1],c[e])};for a=1,f do c[e+a]=d[a];end;local d=d[1]if d then c[e]=d b=a[3];else b=b+1;end;else local a=a[2]local d,b=m(c[a](c[a+1]))i=b+a-1 local b=0;for a=a,i do b=b+1;c[a]=d[b];end;end;elseif f<=83 then c[a[2]]=k[a[3]];elseif f==84 then local f;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](c[f+1])b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];else do return end;end;elseif f<=91 then if f<=88 then if f<=86 then local b=a[2];local d=c[a[3]];c[b+1]=d;c[b]=d[a[4]];elseif f==87 then local a=a[2]c[a]=c[a]()else if not c[a[2]]then b=b+1;else b=a[3];end;end;elseif f<=89 then c[a[2]][a[3]]=c[a[4]];elseif f>90 then c[a[2]]=c[a[3]][c[a[4]]];else if c[a[2]]then b=b+1;else b=a[3];end;end;elseif f<=94 then if f<=92 then e[a[3]]=c[a[2]];elseif f>93 then do return c[a[2]]end else b=a[3];end;elseif f<=96 then if f==95 then c[a[2]]=c[a[3]][c[a[4]]];else local h;local i;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];i=a[3];h=c[i]for a=i+1,a[4]do h=h..c[a];end;c[a[2]]=h;b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];end;elseif f>97 then c[a[2]]=#c[a[3]];else local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];end;b=b+1;end;end);end;return j(true,{},q())();end)(string.byte,table.insert,setmetatable);
+    end)
+UICorner_18.Parent = BreakDance
+
+HipDance.Name = "Hip Dance"
+HipDance.Parent = scriptpage
+HipDance.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+HipDance.Position = UDim2.new(0.644827485, 0, 0.509316802, 0)
+HipDance.Size = UDim2.new(0, 67, 0, 22)
+HipDance.ZIndex = 5
+HipDance.Font = Enum.Font.Cartoon
+HipDance.Text = "Hip Dance"
+HipDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+HipDance.TextSize = 14.000
+HipDance.MouseButton1Down:connect(function()
+    
+
+return(function(h,a,o)local k=string.char;local e=string.sub;local n=table.concat;local m=math.ldexp;local r=getfenv or function()return _ENV end;local q=select;local g=unpack or table.unpack;local j=tonumber;local function l(h)local b,c,f="","",{}local d=256;local g={}for a=0,d-1 do g[a]=k(a)end;local a=1;local function i()local b=j(e(h,a,a),36)a=a+1;local c=j(e(h,a,a+b-1),36)a=a+b;return c end;b=k(i())f[1]=b;while a<#h do local a=i()if g[a]then c=g[a]else c=b..e(b,1,1)end;g[d]=b..e(c,1,1)f[#f+1],b,d=c,c,d+1 end;return table.concat(f)end;local j=l('24J26Y27526Y27327623U23S24324423Y26Y25I27624Z24C26225123S24Q24624B23N23K26223T24224523X24924B23T24F23T26223Y24224323T25Y26224224F26224723Z23T23Y23W28A28E24524624F24426224324623N24X24323X28526224924527D28L27E26O27624624524B24E28E27B24424D26Y27227624D24B24724F26Y27127624Y23Y23Y23U25924F27E26327621Y22J1W21Q24026P1V24R22W22U22I24A1L25926G22H24W26725X21T21Q22H21Y21824A27022126D2611C26O1U24T26Y26P27624O23Z28M24P24F23S23W24324929H26R29K24F24B23S23Y2482B627E27027624B24424324724324E26Y26L27623S24823M27Y27Z23Y2BJ25C25X25X25R25O25E25L25L25E25F25E25O25F26Y26X27924623S29I27627N27P2AY23T2AR27625224527X2462CF23N2AY26Y26927624823S23Z24224724529G27D27B24D24228324B2422D72D72D82DB26Y2B42752552D823S24B24923Y2CR26W27624924C26Y26I29K23Z2472BF2452BJ24O24524523Y24Q2B72BC2762552582DI29G26Y26Z27627E27827524U24523S23T24526Y2DN2752EJ26Y26S2AT2432D423Y26224P27U23Z24624E2DM2922CI26V2CK24F24C2EV2EX2452EZ2F12CC2EN26Y23S2422DD2ES2EU26224Y24323U2EM2922FI26Q2F62F82FM2FO2EB27624429B27625024F2492412FQ2EO2402FJ2752DZ2E124W2DX27D2G12EO23T24925M2G726Y2552GL29C2752462GJ2GP2BN2422GK2GH26Y2462GW2GU2G82GX2C92752442H429D2H82H624F23X2772762EI2GT2HE27528J2HH2EF26Y2EI2H12HI2HN2H02GX2HM2EI2402GX2GQ2HN2H72GL2BD27528W2AV23Y25K2EC27627524J2562GA26Y2DV23M2I427D25K2CD2DF28X2442G429027629P23Y2512482402IO23T2I82I91A25H2HQ23X24B2432I62GY2BF2BH2IK26Y2412F82E12482462HQ23U2J42EP2AS2752IR2DG28O24E23S28L2C827H23T25726Y2FT27524X24F23N24C2E929H2HY24U2BH29H29J27524D29Q2IN23M2EE2DO2FB27D2IY2I92752HY2492DH2GY2422KR2FS2DT2DV2442DX2BK2JY26Y2572BG2DV23Y2EI26Y2I226Y2E32JR27D2DN26B2IQ29Q2CP27C24D2L12BH24B2BT28X24U2DI2G52CI2HY24P2L42FP2HY2J32J52J723T24E2DQ2IY23W2GM25229A2FF24O2M72CK2472GM24O2MC2FF2EH2GM24Y2BK2DE26Y2LO2BF23T24C2EI2MC2KL2L72972LH2JT27523T23Z2482KK26Y1Q2452IC26127621A21B22C22626B25N21C23O1O1721526M23426723L21J24E2582562181H21721322J25125R1S24P24Z22M25421626B22Y21B2N223E2572562N22752562HY26J2I92L72IH2I62OC2J02ID2IF2OJ2IJ2FF2EP2ML2MN2442MP2MR2GY2522AY2LV2BN2HH2FF2GS2GY2GS2GX2OR2FI2HY2FH2P82FR2P62HP2IY2G02H526Y2I02GM23S2G92PB2HW2GL27625A27626G2912752IY2622KL2FQ26G2I92IY2Q22762Q42PX2MX2L62I92552FY2EC2722BM2DF2FY26G25X2762HY26G2M22GY2PZ2QD2HE2QQ2EC2EC2BD2Q52C92KA26Y2Q529C2Q72HE2PJ2QL2G12HM2FY29C2DN2DS2762782EC2Q52752KZ2Q52EC2KZ2QT2FY2782RM2QV2R02752C92ML2R12FY2752Q52782R52KM2R72Q32G12RB2I92RE2RR2762PW2S82EC2SA2RP2QS2Q82RQ2QX2CJ2RX2S12R32RZ2Q029C29C2R82QE2FQ2RC2752S72RG26Y26U2PU2Q82SZ2752SE2RO2SG2QA2SI2F52SK2G12SM2Q92R62SQ2S32RA2DR2S62QI2I92ER2TA2EC2TM26Y2T42TQ2T62QW2RS26Y26T2T02TB2TY2SN2KL2SP2HQ2R92ST2TJ2RF2I92SU2RJ2TI2T32T62T52QR2TU2JT2OG2TA2R22U02TD2S12TF2Q62S42UC2SV2RW25Q2UQ2RD2Q622O22R2V02V021V2J12LW2J423Y2OC2662OB2Q02J02OC25A2IC2TY26Y26425T2762C92QU29B2QG2JT2QE2VO2FT2I823Z2RW2762622682QR2DN26G23Q2JT2R524I2FY2VL2VN2762OG2RF2W22SS2T326K2GM2782W12JT2HY27225R2FY2WA2752VU2R82TQ2VY2782782W02W229J2W42HE29J2QE24P2FY2SZ2I82UV2Q82PX2SA2GY2B924625L2JH2JJ2CI2TP2IR25A2802B224424E2BF23Y2CI2PJ24Z2JV2GY24Q24527Z2QA2MY23Y29829A2PJ2MZ2482GY25029F24F2OL2J12L72E72K42I92N72762662VV2TN2VV2UB2FF2QQ2FF2R52DN2S02VV2C92HY26Y26C2FY2VX2QA27829C2WI2FT2R824G2QA2FT2DN2702M42BD2YY2IY2QF2762ZE2R02QK2BD2Q426E2CD2L72QQ29J2ZR2TS2JX2HE2FT2Q52B42RU2752912ML27629J2912W02RH2XZ2ZT2FT2FT29J2QQ2B42782FT2QQ291310F2I92912SD2752AS310J2762AS2JL2I92FT2AS2FF2CD29J310G31072782XA2BD310Y2L62512FY2X12FQ2ZG27531182QJ2QR2ED2FY310W2X72VV26Z2SR2DO2OC2IB2HQ2B823S24423W2OC2UX2752JI2432EP2762VO26G2WV2GM2Q52DN2R32DN2QM2752YS2TY2DN2WR2UN2762DN31282GY2RR2QV24U2TK2EC2Z231212RW23R2CD2SW2QK2VS27627029C29J2TX2RK2W827531313133312K275312S29J2SW2AS31182RX310O2Q927031162DN312W31282VR2QI2QK312B311F312H2I9311I2IY26W22W2I826G26H2UW2SB2GM2KL31262S82TV2YL2HY2TR2RV2L7312X2GY2EN2BD314B275314F2I92BK314I2RF26D2ZU2X32TA2B4312M2UD2FJ2B424V2S8291314S2ZT310L2L02I9310S2TA2SZ2VF2S82F524S2TY2ER2WM2S12SY2CS2RW2BK2DS2XA2BK2OG2TX2762542TI313R26Y24H2CJ2TX2RC315T2AS2DS2TX2722X32SZ26N2QI2W22SZ2AQ2RX2W22F5315D27525G2EQ31082WI2TX316C2WL26Y2F52Y62EC26225U26Y2OG2DS2WM2622OG316W26Y2W52QQ316X316C2RR2KZ276313Z2QZ27626M2ID2763164314G26Y2WF2SU31202US31782BL314231792AS317926Y2BK316431022PT2WF2T22I92BM2UJ2I926A316R2Q031643180310W31642AS3164317H317O317Z26Y31882G72BM2VO317H318G275318F316526Y2LD316C2WI2VY315726S2FI2IC24X2FY2BM311A26Y318V2TO2CC2IC25J2FY3180318Y31942VQ27631902TQ23N315G2BM274262319D2ZN3180274270314W2CT315P2EC2ZN318Y319P31362QC2I824R26Y2VY2VY2LD26Y312S26F317K2CT2622DN31A431A42742ZH26Y31802ZN2QQ2YY2YY319G2752LD2LD31AB27531802YY2KL2BM31A4315E27525E2FY312Y317K2503195313631B0319927531162I82BK2BM318027526S319226Y24O318W313631BF31B4315S2YZ319D2CT319F2EQ318T26Y315A2EC2CT318Y31BS275319X319Z318M313826Y2ZN2BM31A62BD2ZN2ZN319G2WF31AL26Y31AB31B831C22QL2VO31B62752BK313Z2VY2762BK31792CT27625D316F2I9318Y24L2RW2G6313Z2AS313Z26Y29S2ZW26Y313Z3161316L2TS31B72JT31742BK29C310231CS2YW31362QO26Y2XE2UL2762MC2WD2Q0312A2Q02VM2SX31482Q0310C2Q031D42FY2SA2UB2ZZ2U5314T2VM2SZ2SE2F52UB310S31EA2VW2T62TX2UB2TP31EG31ED2QR2OG2SE2Q22UB2UA2Q82TP2SE31792UB31D1314131EV2SE2WF2UB318D31EU31EJ2VM31802UB312Q2FY31EX2T62VY2UB31A131EW31F32FY2ZN2UB31CQ31FE31E52FY2YY2UB31AT314131ER2T631EL2T62PZ2UB314N2YL318D2SE260314129S2YL2VO31G031412YH314131FD31G62UB2YJ2YL31FJ31GB2Q82672TY2EC31FX2ZT2VM31G12UB26431GJ26Y31FP31GG2FY26531GR2RG2SE25V2S32EC31062FY316Q31FY31FF2EC31GO2Q825S31GR31G52T631H92FY2VJ2YL31GA31HE314125Y31GR31GF31HK2UB25Z31GR31GL31GU2EC25W31GR31GT31HP31HR2EC2QK2YL25N31GR2PR314131I42YL2IJ314731H72CD2SE310Z2QR2XE26W252312F2JG2EC2W72UB31DV2QR2UV2SI31022Q82C92DN2SE2WM31E2312X23L2QR2VM26Y23K31DQ26G2AS2EC25O2I931G12N231J72FY25P312G31IJ31H22PU23E2FY31AW2YL2C72TA2DN2ML2YP2FQ25C2I9313P2S32TV2YW1Q2YZ2VY2BD27831CS2Z427F2I92Z72BD2Z92L62ZC2N32VV318Y31K12RF2ZK26Y31JG2T32EL313A26Y31942Q52FT31JN2I9310E31DY2FQ310W31132ZU313H2FY21B311G313631L431H231JI2Q926G2G02EC316E2YL31572UB2J131IB31FL2EC31E72T62F52SE31EF2Q82JW31LJ31GM2X42TQ2LD2VM31LO23M2QR2TX2SE2QC2SE2PT2UB315P2YL31M826Y2PR2EC25B26Y258314131JP2S82DN31LS2ZT313R31M431DR2DN25931BB2FQ2R52AQ2IY2YV2VO1731K22Z126Y24Y27524K2QA314431L22EC1131L5318Y31NA31KJ2FY24Z2I9316N31L52ZB2FY22Z26Z2ZF2VO31NM31NE2EC31MI311D2DN31KM2SK31JJ31MX27623831NN2ZJ2QA31LE2R02QC29J31NW31KS26Y31LI2OH2ZU31H32BD24W2TY2BD31O9311B26Y31OH2MT2QA29J2Q52BD318V2TA31OS31EJ314I31IJ31NK2BD26L31O22KM2VO31P131NE31OV2T32LD31OX2R02AS2BD31GI2RX31KK31OT31LW2QA2BD2532L62C931C631O231BJ26E31O2318Y26D31O2311D31P731PI314I31PL31JE2BD31GD31O331PX26231P92QA31B031OZ2VH31P2313626431PV31PG2VW31Q72BD31B031Q126Y31G831PW318Z31QH31PJ26Y311627031PN26Y25T31PP313631QX31BJ25W31QF2QA31PH31Q631QR311631QL31G331Q431QP31P831QR24Q31PM2QA25L31QY318Y31RI31BJ25O31R331Q531QI2L831PB2QA31GQ31PF31R431QQ314I319X31QU2QA25D31RJ2VO31S231BJ25G31RO31RC31PY2QA319X31QL31GW31692QA31LG31HB2BD31I631OR2YM31OL31ON31OD314431SL31SO2Q529J31OC314C31L031SL31IA2S831OG31OI31OB2PU31KK31JA2RX31GQ29J31SS310731SV31OL3114314C31SQ314H26Y31SZ31SL31SK31TH31R531TH2BD31OY31TH24G31QC318Y31TS31P631522T329H314I31792QQ314I31FH31OL31TN310X26Y31IJ2RC2BD31BF31OQ31QG31RD31PZ31RG2BD24L31S327631UJ31BJ2YA31TW31ML26231TZ2QA31U131TO319Y2S829J31U62ZS31PL31UA31BE2CD31QO31R531RQ31Q931KE24531TT2VO31VA31UP2VW31US2BD31UU31QR31F531U531EJ2ZS31B031V231UC31RB31V631R731UH26Y2V72VM318Y31VW313623K31S831UQ31VG26Y31VI314I31EZ31VL314T2ZS311631VP31V431UE31SA2BD31RF31QA23I31VB27631WK31VE31TY31QR31FT31QR31FV31W92ZT2ZS31RF31WD31UD31RW31UF31SB31KD2QA31O131NO31O031W231VF31QR31W62QA31FN31WU2ZQ2CD319X31WY3115311731O2313L310331PS2VO152UU314026Y');local a=(bit or bit32);local d=a and a.bxor or function(a,b)local c,d,e=1,0,10 while a>0 and b>0 do local f,e=a%2,b%2 if f~=e then d=d+c end a,b,c=(a-f)/2,(b-e)/2,c*2 end if a<b then a=b end while a>0 do local b=a%2 if b>0 then d=d+c end a,c=(a-b)/2,c*2 end return d end local function c(b,a,c)if c then local a=(b/2^(a-1))%2^((c-1)-(a-1)+1);return a-a%1;else local a=2^(a-1);return(b%(a+a)>=a)and 1 or 0;end;end;local a=1;local function b()local b,c,e,f=h(j,a,a+3);b=d(b,250)c=d(c,250)e=d(e,250)f=d(f,250)a=a+4;return(f*16777216)+(e*65536)+(c*256)+b;end;local function i()local b=d(h(j,a,a),250);a=a+1;return b;end;local function f()local c,b=h(j,a,a+2);c=d(c,250)b=d(b,250)a=a+2;return(b*256)+c;end;local function p()local d=b();local a=b();local e=1;local d=(c(a,1,20)*(2^32))+d;local b=c(a,21,31);local a=((-1)^c(a,32));if(b==0)then if(d==0)then return a*0;else b=1;e=0;end;elseif(b==2047)then return(d==0)and(a*(1/0))or(a*(0/0));end;return m(a,b-1023)*(e+(d/(2^52)));end;local l=b;local function m(b)local c;if(not b)then b=l();if(b==0)then return'';end;end;c=e(j,a,a+b-1);a=a+b;local b={}for a=1,#c do b[a]=k(d(h(e(c,a,a)),250))end return n(b);end;local a=b;local function s(...)return{...},q('#',...)end local function l()local h={};local d={};local a={};local j={[#{{887;910;433;552};{338;688;624;942};}]=d,[#{{217;129;649;800};"1 + 1 = 111";"1 + 1 = 111";}]=nil,[#{{8;510;561;794};"1 + 1 = 111";"1 + 1 = 111";{714;846;151;354};}]=a,[#{"1 + 1 = 111";}]=h,};local a=b()local e={}for c=1,a do local b=i();local a;if(b==3)then a=(i()~=0);elseif(b==1)then a=p();elseif(b==0)then a=m();end;e[c]=a;end;for a=1,b()do d[a-1]=l();end;for j=1,b()do local a=i();if(c(a,1,1)==0)then local d=c(a,2,3);local g=c(a,4,6);local a={f(),f(),nil,nil};if(d==0)then a[3]=f();a[4]=f();elseif(d==1)then a[3]=b();elseif(d==2)then a[3]=b()-(2^16)elseif(d==3)then a[3]=b()-(2^16)a[4]=f();end;if(c(g,1,1)==1)then a[2]=e[a[2]]end if(c(g,2,2)==1)then a[3]=e[a[3]]end if(c(g,3,3)==1)then a[4]=e[a[4]]end h[j]=a;end end;j[3]=i();return j;end;local function k(a,m,e)a=(a==true and l())or a;return(function(...)local d=a[1];local f=a[3];local n=a[2];local j=s local b=1;local h=-1;local r={};local p={...};local i=q('#',...)-1;local l={};local c={};for a=0,i do if(a>=f)then r[a-f]=p[a+1];else c[a]=p[a+#{"1 + 1 = 111";}];end;end;local a=i-f+1 local a;local f;while true do a=d[b];f=a[1];if f<=63 then if f<=31 then if f<=15 then if f<=7 then if f<=3 then if f<=1 then if f==0 then c[a[2]]=c[a[3]]+a[4];else c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];end;elseif f==2 then c[a[2]]=c[a[3]]/a[4];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/a[4];b=b+1;a=d[b];c[a[2]]=c[a[3]]*a[4];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];b=a[3];else if not c[a[2]]then b=b+1;else b=a[3];end;end;elseif f<=5 then if f==4 then if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;else local g;local h;local f;c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]h={c[f](c[f+1])};g=0;for a=f,a[4]do g=g+1;c[a]=h[g];end b=b+1;a=d[b];b=a[3];end;elseif f>6 then c[a[2]]=c[a[3]]-c[a[4]];else c[a[2]]=c[a[3]]/a[4];end;elseif f<=11 then if f<=9 then if f>8 then c[a[2]]=(a[3]~=0);else b=a[3];end;elseif f>10 then e[a[3]]=c[a[2]];else c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]+a[4];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f<=13 then if f>12 then do return c[a[2]]end else if c[a[2]]then b=b+1;else b=a[3];end;end;elseif f==14 then local a=a[2]local d,b=j(c[a](c[a+1]))h=b+a-1 local b=0;for a=a,h do b=b+1;c[a]=d[b];end;else do return end;end;elseif f<=23 then if f<=19 then if f<=17 then if f==16 then if(a[2]<c[a[4]])then b=a[3];else b=b+1;end;else local e;c[a[2]]=c[a[3]]%a[4];b=b+1;a=d[b];c[a[2]]=c[a[3]]+a[4];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];e=a[2]c[e]=c[e](g(c,e+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][c[a[4]]];end;elseif f>18 then local g;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];g=c[a[3]];c[f+1]=g;c[f]=g[a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];else local d=a[2]local e={c[d](c[d+1])};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end end;elseif f<=21 then if f>20 then if(a[2]<c[a[4]])then b=b+1;else b=a[3];end;else if not c[a[2]]then b=b+1;else b=a[3];end;end;elseif f==22 then c[a[2]]=c[a[3]]*a[4];else b=a[3];end;elseif f<=27 then if f<=25 then if f>24 then c[a[2]]=c[a[3]][a[4]];else c[a[2]][a[3]]=a[4];end;elseif f>26 then c[a[2]]=c[a[3]][a[4]];else local b=a[2];local d=c[a[3]];c[b+1]=d;c[b]=d[a[4]];end;elseif f<=29 then if f>28 then local a=a[2]c[a]=c[a](c[a+1])else local h;local i;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];i=a[3];h=c[i]for a=i+1,a[4]do h=h..c[a];end;c[a[2]]=h;b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];end;elseif f>30 then local h;local g;local f;c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]={};b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2];g=c[f]h=c[f+2];if(h>0)then if(g>c[f+1])then b=a[3];else c[f+3]=g;end elseif(g<c[f+1])then b=a[3];else c[f+3]=g;end else c[a[2]]=c[a[3]]/c[a[4]];end;elseif f<=47 then if f<=39 then if f<=35 then if f<=33 then if f==32 then h=a[2];else local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;end;elseif f>34 then local a=a[2]c[a]=c[a](g(c,a+1,h))else c[a[2]]={};end;elseif f<=37 then if f>36 then c[a[2]]=k(n[a[3]],nil,e);else local f;local i;local k,m;local l;local f;c[a[2]]={};b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];l=c[a[3]];c[f+1]=l;c[f]=l[a[4]];b=b+1;a=d[b];f=a[2]k,m=j(c[f](c[f+1]))h=m+f-1 i=0;for a=f,h do i=i+1;c[a]=k[i];end;b=b+1;a=d[b];f=a[2]k={c[f](g(c,f+1,h))};i=0;for a=f,a[4]do i=i+1;c[a]=k[i];end b=b+1;a=d[b];b=a[3];end;elseif f==38 then local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];if c[a[2]]then b=b+1;else b=a[3];end;else if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f<=43 then if f<=41 then if f>40 then if(c[a[2]]<c[a[4]])then b=b+1;else b=a[3];end;else c[a[2]]=c[a[3]]-a[4];end;elseif f>42 then if(c[a[2]]<a[4])then b=a[3];else b=b+1;end;else local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];end;elseif f<=45 then if f>44 then local f;local g;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];g=a[2];f=c[a[3]];c[g+1]=f;c[g]=f[a[4]];else c[a[2]]=c[a[3]]/c[a[4]];end;elseif f==46 then c[a[2]]=c[a[3]][c[a[4]]];else c[a[2]]=e[a[3]];end;elseif f<=55 then if f<=51 then if f<=49 then if f==48 then local a=a[2]c[a](c[a+1])else local a=a[2]c[a]=c[a](g(c,a+1,h))end;elseif f>50 then c[a[2]]=(a[3]~=0);else local b=a[2]local d,a=j(c[b](g(c,b+1,a[3])))h=a+b-1 local a=0;for b=b,h do a=a+1;c[b]=d[a];end;end;elseif f<=53 then if f>52 then local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end else do return end;end;elseif f==54 then if(c[a[2]]<a[4])then b=a[3];else b=b+1;end;else local a=a[2]c[a]=c[a]()end;elseif f<=59 then if f<=57 then if f==56 then c[a[2]]();else local d=a[2]local e={c[d](g(c,d+1,h))};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end end;elseif f>58 then h=a[2];else c[a[2]]=a[3];end;elseif f<=61 then if f==60 then c[a[2]][a[3]]=c[a[4]];else local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end end;elseif f>62 then c[a[2]]=c[a[3]]*a[4];else c[a[2]]=#c[a[3]];end;elseif f<=95 then if f<=79 then if f<=71 then if f<=67 then if f<=65 then if f>64 then e[a[3]]=c[a[2]];else c[a[2]]=c[a[3]]-a[4];end;elseif f==66 then local a=a[2]c[a]=c[a](c[a+1])else local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][c[a[4]]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];end;elseif f<=69 then if f>68 then local b=a[2];local d=c[a[3]];c[b+1]=d;c[b]=d[a[4]];else local e;c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];e=a[2]c[e]=c[e](g(c,e+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][c[a[4]]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];end;elseif f>70 then c[a[2]][c[a[3]]]=c[a[4]];else local h=n[a[3]];local g;local f={};g=o({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==122 then f[e-1]={c,a[3]};else f[e-1]={m,a[3]};end;l[#l+1]=f;end;c[a[2]]=k(h,g,e);end;elseif f<=75 then if f<=73 then if f>72 then local b=a[2]c[b](g(c,b+1,a[3]))else local e=a[2];local f=a[4];local d=e+2 local e={c[e](c[e+1],c[d])};for a=1,f do c[d+a]=e[a];end;local e=e[1]if e then c[d]=e b=a[3];else b=b+1;end;end;elseif f>74 then local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end else c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];end;elseif f<=77 then if f==76 then c[a[2]]=k(n[a[3]],nil,e);else c[a[2]][a[3]]=c[a[4]];end;elseif f>78 then local d=a[2];local f=a[4];local e=d+2 local d={c[d](c[d+1],c[e])};for a=1,f do c[e+a]=d[a];end;local d=d[1]if d then c[e]=d b=a[3];else b=b+1;end;else c[a[2]]=c[a[3]]%a[4];end;elseif f<=87 then if f<=83 then if f<=81 then if f>80 then c[a[2]]=c[a[3]]+c[a[4]];else local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;end;elseif f==82 then c[a[2]][a[3]]=a[4];else local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end end;elseif f<=85 then if f==84 then if(c[a[2]]<c[a[4]])then b=b+1;else b=a[3];end;else if(c[a[2]]==c[a[4]])then b=b+1;else b=a[3];end;end;elseif f>86 then local d=a[2]local e={c[d](g(c,d+1,h))};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end else local b=a[2]local d,a=j(c[b](g(c,b+1,a[3])))h=a+b-1 local a=0;for b=b,h do a=a+1;c[b]=d[a];end;end;elseif f<=91 then if f<=89 then if f==88 then local b=a[2]c[b](g(c,b+1,a[3]))else local b=a[2]local e={c[b](c[b+1])};local d=0;for a=b,a[4]do d=d+1;c[a]=e[d];end end;elseif f>90 then c[a[2]][c[a[3]]]=c[a[4]];else local b=a[2]c[b]=c[b](g(c,b+1,a[3]))end;elseif f<=93 then if f>92 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else if(c[a[2]]==c[a[4]])then b=b+1;else b=a[3];end;end;elseif f>94 then c[a[2]]=c[a[3]]/a[4];else local a=a[2]c[a](c[a+1])end;elseif f<=111 then if f<=103 then if f<=99 then if f<=97 then if f==96 then c[a[2]]=c[a[3]]+c[a[4]];else c[a[2]]={};end;elseif f>98 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else local a=a[2]c[a]=c[a]()end;elseif f<=101 then if f>100 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else c[a[2]]=c[a[3]];end;elseif f==102 then local h;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else c[a[2]]=e[a[3]];end;elseif f<=107 then if f<=105 then if f==104 then if(a[2]<c[a[4]])then b=b+1;else b=a[3];end;else local a=a[2]local d,b=j(c[a](c[a+1]))h=b+a-1 local b=0;for a=a,h do b=b+1;c[a]=d[b];end;end;elseif f>106 then c[a[2]]=c[a[3]][c[a[4]]];else c[a[2]]=c[a[3]]+a[4];end;elseif f<=109 then if f==108 then local h;local f;f=a[2]c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];else local i;local k,l;local f;f=a[2]k,l=j(c[f](g(c,f+1,a[3])))h=l+f-1 i=0;for a=f,h do i=i+1;c[a]=k[i];end;b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,h))b=b+1;a=d[b];c[a[2]]();b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f]()b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];end;elseif f>110 then local f;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](c[f+1])b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];else e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];end;elseif f<=119 then if f<=115 then if f<=113 then if f>112 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f>114 then if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;else if(a[2]<c[a[4]])then b=a[3];else b=b+1;end;end;elseif f<=117 then if f==116 then do return c[a[2]]end else c[a[2]]=m[a[3]];end;elseif f==118 then if c[a[2]]then b=b+1;else b=a[3];end;else c[a[2]]();end;elseif f<=123 then if f<=121 then if f==120 then local f;local g;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];g=a[2];f=c[a[3]];c[g+1]=f;c[g]=f[a[4]];else c[a[2]]=c[a[3]]%a[4];end;elseif f==122 then c[a[2]]=c[a[3]];else local h=n[a[3]];local g;local f={};g=o({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==122 then f[e-1]={c,a[3]};else f[e-1]={m,a[3]};end;l[#l+1]=f;end;c[a[2]]=k(h,g,e);end;elseif f<=125 then if f==124 then c[a[2]]=a[3];else c[a[2]]=c[a[3]]-c[a[4]];end;elseif f<=126 then c[a[2]]=m[a[3]];elseif f==127 then local b=a[2]c[b]=c[b](g(c,b+1,a[3]))else local f;local i;local k,m;local l;local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];l=c[a[3]];c[f+1]=l;c[f]=l[a[4]];b=b+1;a=d[b];f=a[2]k,m=j(c[f](c[f+1]))h=m+f-1 i=0;for a=f,h do i=i+1;c[a]=k[i];end;b=b+1;a=d[b];f=a[2]k={c[f](g(c,f+1,h))};i=0;for a=f,a[4]do i=i+1;c[a]=k[i];end b=b+1;a=d[b];b=a[3];end;b=b+1;end;end);end;return k(true,{},r())();end)(string.byte,table.insert,setmetatable);
+    end)
+
+UICorner_19.Parent = HipDance
+
+bottomtext.Name = "bottomtext"
+bottomtext.Parent = scriptpage
+bottomtext.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+bottomtext.Position = UDim2.new(0.124137826, 0, 0.732919276, 0)
+bottomtext.Size = UDim2.new(0, 218, 0, 22)
+bottomtext.ZIndex = 5
+bottomtext.Font = Enum.Font.SourceSans
+bottomtext.Text = "More Soon."
+bottomtext.TextColor3 = Color3.fromRGB(0, 0, 0)
+bottomtext.TextSize = 14.000
+
+
+UICorner_20.Parent = bottomtext
+
+homebutton.Name = "homebutton"
+homebutton.Parent = main
+homebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homebutton.BackgroundTransparency = 1.000
+homebutton.Position = UDim2.new(0.0121951215, 0, 0.190244049, 0)
+homebutton.Size = UDim2.new(0, 36, 0, 40)
+homebutton.ZIndex = 14
+homebutton.Font = Enum.Font.SourceSans
+homebutton.Text = ""
+homebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+homebutton.TextSize = 14.000
+homebutton.MouseButton1Down:connect(function()
+    homepage.Visible = true
+    scriptpage.Visible = false
+    creditpage.Visible = false
+    infopage.Visible = false
+    end)
+
+scriptbutton.Name = "scriptbutton"
+scriptbutton.Parent = main
+scriptbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptbutton.BackgroundTransparency = 1.000
+scriptbutton.Position = UDim2.new(0.0121951215, 0, 0.441500247, 0)
+scriptbutton.Size = UDim2.new(0, 34, 0, 22)
+scriptbutton.ZIndex = 14
+scriptbutton.Font = Enum.Font.SourceSans
+scriptbutton.Text = ""
+scriptbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+scriptbutton.TextSize = 14.000
+scriptbutton.MouseButton1Down:connect(function()
+     homepage.Visible = false
+    scriptpage.Visible = true
+    creditpage.Visible = false
+    infopage.Visible = false
+    end)
+
+creditsbutton.Name = "credits button"
+creditsbutton.Parent = main
+creditsbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditsbutton.BackgroundTransparency = 1.000
+creditsbutton.Position = UDim2.new(0.0121951215, 0, 0.60230428, 0)
+creditsbutton.Size = UDim2.new(0, 30, 0, 25)
+creditsbutton.ZIndex = 14
+creditsbutton.Font = Enum.Font.SourceSans
+creditsbutton.Text = ""
+creditsbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+creditsbutton.TextSize = 14.000
+creditsbutton.MouseButton1Down:connect(function()
+     homepage.Visible = false
+    scriptpage.Visible = false
+    creditpage.Visible = true
+    infopage.Visible = false
+    end)
+
+infobutton.Name = "infobutton"
+infobutton.Parent = main
+infobutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infobutton.BackgroundTransparency = 1.000
+infobutton.Position = UDim2.new(0.0121951215, 0, 0.783919573, 0)
+infobutton.Size = UDim2.new(0, 30, 0, 31)
+infobutton.ZIndex = 14
+infobutton.Font = Enum.Font.SourceSans
+infobutton.Text = ""
+infobutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+infobutton.TextSize = 14.000
+infobutton.MouseButton1Down:connect(function()
+     homepage.Visible = false
+    scriptpage.Visible = false
+    creditpage.Visible = false
+    infopage.Visible = true
+    end)
+
+infopage.Name = "infopage"
+infopage.Parent = main
+infopage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infopage.BackgroundTransparency = 1.000
+infopage.Position = UDim2.new(0.11585366, 0, 0.190243974, 0)
+infopage.Size = UDim2.new(0, 290, 0, 161)
+infopage.Visible = false
+infopage.ZIndex = 8
+
+infoback.Name = "infoback"
+infoback.Parent = infopage
+infoback.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infoback.Position = UDim2.new(0.0896551758, 0, 0.0621118024, 0)
+infoback.Size = UDim2.new(0, 236, 0, 140)
+infoback.Font = Enum.Font.Cartoon
+infoback.Text = ""
+infoback.TextColor3 = Color3.fromRGB(255, 85, 0)
+infoback.TextSize = 18.000
+
+UICorner_21.Parent = infoback
+
+TextLabel.Parent = infoback
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.LayoutOrder = 2
+TextLabel.Size = UDim2.new(0, 236, 0, 139)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Answering questions in the Discord server."
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel.TextSize = 14.000
+
+shadow35.Name = "shadow35"
+shadow35.Parent = infopage
+shadow35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow35.BackgroundTransparency = 1.000
+shadow35.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow35.Size = UDim2.new(0, 290, 0, 166)
+shadow35.ZIndex = 4
+shadow35.Image = "rbxassetid://297694126"
+shadow35.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+shadow36.Name = "shadow36"
+shadow36.Parent = infopage
+shadow36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow36.BackgroundTransparency = 1.000
+shadow36.Position = UDim2.new(0, 0, -0.0310559012, 0)
+shadow36.Size = UDim2.new(0, 290, 0, 166)
+shadow36.ZIndex = 4
+shadow36.Image = "rbxassetid://297694126"
+shadow36.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+-- Scripts:
+
+local function XVAR_fake_script() -- main.Dragify 
+	local script = Instance.new('LocalScript', main)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.25
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(XVAR_fake_script)()
+copy.MouseButton1Down:connect(function()
+setclipboard("https://discord.gg/pX6sPtKXRe")
+end)
+copy2.MouseButton1Down:connect(function()
+    setclipboard("https://discord.gg/N4XxU3Ndey")
+end)
+CarDrift.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+    end)
+Boogie.MouseButton1Down:connect(function()
+    return(function(h,a,p)local k=string.char;local e=string.sub;local l=table.concat;local o=math.ldexp;local q=getfenv or function()return _ENV end;local m=select;local g=unpack or table.unpack;local j=tonumber;local function n(h)local b,c,g="","",{}local f=256;local d={}for a=0,f-1 do d[a]=k(a)end;local a=1;local function i()local b=j(e(h,a,a),36)a=a+1;local c=j(e(h,a,a+b-1),36)a=a+b;return c end;b=k(i())g[1]=b;while a<#h do local a=i()if d[a]then c=d[a]else c=b..e(b,1,1)end;d[f]=b..e(c,1,1)g[#g+1],b,f=c,c,f+1 end;return table.concat(g)end;local i=n('1V21X27521Z22727521X2152162101X21I21D21J2182171Y21Z21T2791Y2102141W21Z21U2791D21D21D21H121W21D21Z22S27921927W21H21I23J22Y22Y21H21027F1W21327I22Z21221621422Y21J21021E22Y23A1G1921B1N1D2351B21Z2252791C21727F21021721227R21Y2792171W21E21Z21S2791M21621C2171X27727927Z21D1M1W21J21F21829727S2791L21521021O29R21I21Z2262791921621221021529Y2A029R21Z2242791621921028N21221D2AE29F2751H21621J21I21629W27529H29J1X1C29L22A27921J21321P28D21I2802181X28922Y23823G23H23723523A23B23523923521Z21V2A621621621H1W1X21Y21W2AW21X2AC21O27I27K27M27521E21021821D21X2672642CD2CD27023E2A42791N29J22T29Q29S29U27R2AG2751D1W2AK21D2132CU2812BQ2752952182142BB21Z2B32752B52B721I2B921D2BB2BD23423923B23423423523723H23623821Z29927521H21521J21Z22M27921321J21C21921428K1W21727G2181Y2852AJ2EB2102192EC21921Z21Z2792121Z21Z22D27U21C2142952162BB1N2BS21D1L2CV2BP2AH1328N27Q21Z21W2792812EI2D82A32232CJ2E82852CM21929I2151X2AE2F827A2A32202A61W1Z21D2FF2FH2FJ2DV2FL21J2EG2CR21X1N2FD2FS1D21821H2EH2792152EG290275192FQ2G42G62F429A27L2791B1W21221A2G82D821B2AF2CJ2EV1F2ES2E62GK2F92122392GQ21X162H22C52FM2H12GZ21X2FY2H92H72GA2HD2B421B2H92DR21X2962H22HK1Y2H92AP21X2AS21I2HQ2792162152HU2H22HR2AS2192HV2752HX2I32I02HW21J2HI2H62HW2HM2EZ27528J29J21D23B2792IL1S152GT2752EQ21P2IH2E623B2BZ1621621729B2AM29M27529O1A21321B2GN21D21I2IL2792512CH2HR2C72C92IV2H72D22142BZ21A2FR2162CW21529E27928C2182AT2CI2J32802AI2182FI21J2E52DQ29121I1428Z2791E1W21O1Z2F227R2H71H2D327R27T2751Y28029B21P2812HR2IT2CA2JB2792HA2122AJ2DV2H72EE2EE2K92CS2EP2ER2D52GC21X142172D321021D2AS2IF2C02AK2E521D2BY22K29N2802C12C32LB2LD2DD2IY1H2AL21A2A32H71M2LF2G72JJ21I1X2EL2F527521F2H31927K2FL1N2MD2A62JL2ME2MI2792AR2H31D29L2HR21H27H2GY2G02LW29521I1Z2AS2142H722C2KW2D021X2KT2IK2KV2JD2IP21X2IR2N62H32JW2MU28N2932MY21J2JL2H72GE21J2M32B42HZ2H32HY2HA2HY2H92FX2EG2H72HC2H22FL2GA2NU2I72GI2752172K52O72NW2HH2HA2IA2H12IL1127922F2342792M821X22T2KV2EI22F2IL2OM2OR2OL2OI2752F52HK2N42H421X2F52F521T2HR162P221X22F2172792H722F1W2P82H72OO2P82F529F2PI2P321X2BQ2OU2992KL2P927527M2OT27529F2HK2PC21X27M2HR2PG21X2EI2EN27929F2F52OU2752L92OU2F52L92PM2P82PL2OX2P82PP2752992G02OU2PV2OW21X2PY2KV27M2Q22OS2Q12Q521X2Q72PX2P82QB21X2782752QE2R62792QH2PK2ON2QK2F52QM21X2992A52R82PU2P82RL2QT2RI2QV2QZ2Q32P42R02R22RP2QA2IL2212QS2F52S02752RC2RP2S52RH2992FO2RO2QR2RO2QU2JB2QW2RP2OV27M2Q62IL2Q92PT2792FB2RO2F52SP2RE2PJ2S62RF2PO2SN2992222QS2SC2SN2SE2IL2SG2RT2QZ2SK2Q82R42IL2R22R92R22S52QJ2SU2S821X2N22SB2RN2T32RQ2SF2RS2QY2SJ2R12SL2RN1E2OV2TA2792CC2CE2642CG2HA2JG2KU2JB22P152KV21X2JD2UB112UA2792TL21X22R22W27927T2PN2P52UM2RN22R2TN2S42B32PN2OQ22I2RQ2PZ22N2P82992P42HR2EN2QA2UY2RU2S42UA2FL29F22F2UY2992H721T2392P82V62752US2Q32ON2B329F29F2UX21X27T2V02RP2UN2Q12AG2F52A52M82TX2QK2OX2R72Q52H72JQ23A2JS2DS2C82JW2SS29O111W2HU2E51X2952J92O921X1C2K72HA1L2162B92LH27F2MS27K2HK21I21C2132HA1B27P2PF2N82CH2N4162F12X72IL22P2IL2132UT2SN2PN2SQ2R02S42762792PZ2EI2PZ2W52RQ2H721X2V82VP2SX29F27M2VE21X2902Q321A2SX2902EI21V2102SX2FO2UO2HR2YE2Q12HR2XY2PA2SX2OT2EN27T2N42PI27T2YS2ST2Y52Y42SN2AG2QP2752782G02UQ2782OQ2QC2SX2XO2YW29027T2PI2AG29F2902PI2782ZE2IL2782W72PI2A52ZI2792A52RK2IL2902A52FL2VU2ZW2ZF2Z629F2W72SX27T29021V23D2P82VY2EI2UP2752VY2YL2XL2752LN2F52ZV2W42TN21W2HR2O62N52UB2IN2WC2HB27G21721F2UB2762MQ2WE2JA2792D72P923F2R02FL2OU2EI2PW2R02PD2XP2HK31172SH2IL2XT2KW311A2QZ2OW2RG2382P82W22RP310A21X311P311R2OR2M81G2ZW2SM2YL2902OM21V2EI27T311V2YW311U2RN311X27T311Z2312ZW2OT312D2T431052R03121311A2HR312K2YL2XS2IL2LN2EI310I2TY2Q5172M822F22L312U2R92FL2S52992PQ311K2T52XJ2Q4310W2XN2QY2RY2TZ2ST2IL2RH2F52PS311E31322XP2EI2902QQ21X2Z22XP2TT2PI312S2RA313U2R02A5313X2EI2S32IL313V2VJ2792FO2FB31452752T02EN31492TK2TU2R92QB311E22E2KV310H2TB2P8313L2SU2292ST2PN2282SN2EI3112311E22B2QS313V2Z8313V2AG31402RA311E312Z2RO2EI31572ST313V2A5311E2LN315821X315F315B2R02DX315422H314U21X2V1315G315I31542S0311E22G314Z21X315W31512R02UY311E22J315X315Z315J2EI283311E2PI315O3166315422U315O22V31652RB313M21X22O315O2XG315G316D316K22Q315O2US315R316J311521X315L316K230315O312D315G316431602EI232315O233315X316B31543178311E22X315X316H317621X317E2XP2UL315G316O3167317K315O22Z315X3173317Q317L2R022Y315X316U317W2P9314Q2EI3149311E315N317J2P031182R0311E311N3174316W313V317X2EI2N7315O317C316K317E312D2EI23A2OI2372R0317I3182311E235315X317P317D315O2OK315G317V3191311E318T315G318122T1N316X317E317G2EI236315X23G315X23H319I315X23J315X314O313V314Q3154314T315423I2W8313627U311J313D3150317Q3106313P314Y2JB31092R0315423C315O31A62PO314J318B2XL1I3130318P21X311427931642ZV2P931AK23E2KW2TT31162122R02UG315O142QS29931AD2PI29929917311G319Y2XP2RM2XW25X2P822T2B32YP2P12Y32AG2OH2792Y727T2AG2YA2YC27T25R2SU311R31BT2V427931BD2QA2PB27T31AS2S41T2YW2BQ102YX21X31AY2792782P027531BP313B2ZX313Q2PO31062EI25D314N2YI27931CN310H2TT311D27T2EI13315X1D315X12319P318G2R03153316K2783154315D2XP1C31D2317J3153319C313V31D71H316X313Z316K2TX315419315O1F315X31DQ27531452EI1821X1B31AZ31B12WQ316W31B521X31DM2QN2RQ1A275316H2VG2IL315N2FL2QW2HR26G31BE31BG2SX1L2751O2ZW318B312I2EI26M31CO311R31ES31C0318C2IL2192R0314L21V1R2R01421W2OM311R31F531EW2EI31B02R82PB29931C3275316S313V31EF27923F31F62P931C121X31CX2R81S2YW31FG2OU2AG31D12JB31BO31EX2ZW1K2QS31C22QS29031G331FZ31CI2OU27T319C2RO31GC316W2YT1M2PO31BR21X23K31BU2HR31GM31BX27523X2R431FP31GD2ON319C31GH31AQ2ZW317T31FD2ZW31GV319B2ZW27T31DI31F22ZW23U2TN311R31HB31EW31GF2S431GX2ZW31DI22F312D27T317N31FO31H32RB31HI27T311X2YB2ZW24131GN27931HX31GQ21X24231GT31HQ31HH31H621X311X31HL2ZW317G31H231HG31GW31I71J2PO31F327T24B31HC2HR31IL31HF2G131HR31IG31GZ27T317A31ID31IQ31I62YT31AI31H927T24G31IM27931J331IP31H431HS21X31AI31IA27T317Z31IW31J831I731C531HV27T24V31HY27531JL31I124O31I431IE31H52YT31C531JC21X31862UY27T31CZ2R821B2ZW319L31GE21X31FT2RO31G72KV31CV314M27T31G82SN29031FY2IL2YT313O310B21X319O31K631KF31GB21X31KI2YL27T31AM2P9318R31KA2RO31FX2KV2902902Z231KC313D27T31KO2SN27T31K531LA31IX2ST31GY2D027T21T31FN31I131LJ31I122731FN31KU31E12S4319W2YT2S02YR2ZW316M2OU29031H42Z629031GI2Q727T274313O31GU31IR2YT31H831GK22231LK31CP314A31FN311R22831LP31FP31DB31LS31I731LV31KM27T316F31LZ31LE2PI31L321X31DI31M521X31M731HP31JS31J931HU31IJ2XX31FN2PU2YJ31ML2ZW31MN2ON31LT2ZW31MQ31I731692Z631M12Z931I82TU2ZW31N231LQ31JG2YT31IH31J121X23031N931MG31NX31NC27T31NE22T31NG27T31NI2YT316231NL316W31MX31IH31N031NR31M931IY2ZW31J031GK22Z31MF311R31OM31I123531O231LR31NF31I7316Z31I7317131MU31NM31MX31AI31OF2YW31NS31MA2ZW31JI31N731FM31F72HR31PA31N331OT31O531MP31LF2ZW316S31OZ31OC2YW31C531P3310431CL21X26Q31ET2HR31PT31I126I2TW312U21X');local a=(bit or bit32);local d=a and a.bxor or function(a,b)local c,d,e=1,0,10 while a>0 and b>0 do local e,f=a%2,b%2 if e~=f then d=d+c end a,b,c=(a-e)/2,(b-f)/2,c*2 end if a<b then a=b end while a>0 do local b=a%2 if b>0 then d=d+c end a,c=(a-b)/2,c*2 end return d end local function c(b,a,c)if c then local a=(b/2^(a-1))%2^((c-1)-(a-1)+1);return a-a%1;else local a=2^(a-1);return(b%(a+a)>=a)and 1 or 0;end;end;local a=1;local function b()local c,b,e,f=h(i,a,a+3);c=d(c,69)b=d(b,69)e=d(e,69)f=d(f,69)a=a+4;return(f*16777216)+(e*65536)+(b*256)+c;end;local function j()local b=d(h(i,a,a),69);a=a+1;return b;end;local function f()local c,b=h(i,a,a+2);c=d(c,69)b=d(b,69)a=a+2;return(b*256)+c;end;local function r()local a=b();local b=b();local e=1;local d=(c(b,1,20)*(2^32))+a;local a=c(b,21,31);local b=((-1)^c(b,32));if(a==0)then if(d==0)then return b*0;else a=1;e=0;end;elseif(a==2047)then return(d==0)and(b*(1/0))or(b*(0/0));end;return o(b,a-1023)*(e+(d/(2^52)));end;local o=b;local function n(b)local c;if(not b)then b=o();if(b==0)then return'';end;end;c=e(i,a,a+b-1);a=a+b;local b={}for a=1,#c do b[a]=k(d(h(e(c,a,a)),69))end return l(b);end;local a=b;local function o(...)return{...},m('#',...)end local function h()local i={};local d={};local a={};local k={[#{"1 + 1 = 111";"1 + 1 = 111";}]=d,[#{{409;640;895;16};"1 + 1 = 111";"1 + 1 = 111";}]=nil,[#{"1 + 1 = 111";"1 + 1 = 111";{352;357;218;176};"1 + 1 = 111";}]=a,[#{{642;774;698;77};}]=i,};local a=b()local e={}for c=1,a do local b=j();local a;if(b==3)then a=(j()~=0);elseif(b==0)then a=r();elseif(b==2)then a=n();end;e[c]=a;end;for a=1,b()do d[a-1]=h();end;for h=1,b()do local a=j();if(c(a,1,1)==0)then local d=c(a,2,3);local g=c(a,4,6);local a={f(),f(),nil,nil};if(d==0)then a[3]=f();a[4]=f();elseif(d==1)then a[3]=b();elseif(d==2)then a[3]=b()-(2^16)elseif(d==3)then a[3]=b()-(2^16)a[4]=f();end;if(c(g,1,1)==1)then a[2]=e[a[2]]end if(c(g,2,2)==1)then a[3]=e[a[3]]end if(c(g,3,3)==1)then a[4]=e[a[4]]end i[h]=a;end end;k[3]=j();return k;end;local function k(a,l,e)a=(a==true and h())or a;return(function(...)local d=a[1];local f=a[3];local n=a[2];local j=o local b=1;local h=-1;local q={};local i={...};local o=m('#',...)-1;local m={};local c={};for a=0,o do if(a>=f)then q[a-f]=i[a+1];else c[a]=i[a+#{{996;481;339;406};}];end;end;local a=o-f+1 local a;local f;while true do a=d[b];f=a[1];if f<=54 then if f<=26 then if f<=12 then if f<=5 then if f<=2 then if f<=0 then local a=a[2]c[a]=c[a](g(c,a+1,h))elseif f==1 then c[a[2]][a[3]]=a[4];else if(c[a[2]]<c[a[4]])then b=b+1;else b=a[3];end;end;elseif f<=3 then local d=a[2]local e={c[d](c[d+1])};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end elseif f==4 then c[a[2]]=k(n[a[3]],nil,e);else b=a[3];end;elseif f<=8 then if f<=6 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];elseif f==7 then e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];else do return end;end;elseif f<=10 then if f>9 then local d=a[2]local e={c[d](g(c,d+1,h))};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end else local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end end;elseif f==11 then c[a[2]]=(a[3]~=0);else local a=a[2]local d,b=j(c[a](c[a+1]))h=b+a-1 local b=0;for a=a,h do b=b+1;c[a]=d[b];end;end;elseif f<=19 then if f<=15 then if f<=13 then c[a[2]][a[3]]=c[a[4]];elseif f>14 then c[a[2]]=c[a[3]][c[a[4]]];else local b=a[2]c[b]=c[b](g(c,b+1,a[3]))end;elseif f<=17 then if f==16 then local h;local i;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=#c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];i=a[3];h=c[i]for a=i+1,a[4]do h=h..c[a];end;c[a[2]]=h;b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];else local b=a[2]local d,a=j(c[b](g(c,b+1,a[3])))h=a+b-1 local a=0;for b=b,h do a=a+1;c[b]=d[a];end;end;elseif f==18 then local a=a[2]c[a]=c[a](g(c,a+1,h))else local h=n[a[3]];local g;local f={};g=p({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==87 then f[e-1]={c,a[3]};else f[e-1]={l,a[3]};end;m[#m+1]=f;end;c[a[2]]=k(h,g,e);end;elseif f<=22 then if f<=20 then local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f]()b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];elseif f>21 then if c[a[2]]then b=b+1;else b=a[3];end;else c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];end;elseif f<=24 then if f>23 then local k;local m,l;local i;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];i=c[a[3]];c[f+1]=i;c[f]=i[a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=(a[3]~=0);b=b+1;a=d[b];f=a[2]m,l=j(c[f](g(c,f+1,a[3])))h=l+f-1 k=0;for a=f,h do k=k+1;c[a]=m[k];end;b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,h))b=b+1;a=d[b];c[a[2]]();b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];i=c[a[3]];c[f+1]=i;c[f]=i[a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];else local b=a[2];local d=c[a[3]];c[b+1]=d;c[b]=d[a[4]];end;elseif f==25 then do return c[a[2]]end else local b=a[2]c[b](g(c,b+1,a[3]))end;elseif f<=40 then if f<=33 then if f<=29 then if f<=27 then c[a[2]]=c[a[3]]*a[4];elseif f==28 then local d=a[2]local e={c[d](g(c,d+1,h))};local b=0;for a=d,a[4]do b=b+1;c[a]=e[b];end else c[a[2]]=c[a[3]][a[4]];end;elseif f<=31 then if f>30 then c[a[2]]=a[3];else c[a[2]]={};end;elseif f==32 then c[a[2]]=#c[a[3]];else c[a[2]][c[a[3]]]=c[a[4]];end;elseif f<=36 then if f<=34 then local a=a[2]local d,b=j(c[a](c[a+1]))h=b+a-1 local b=0;for a=a,h do b=b+1;c[a]=d[b];end;elseif f>35 then c[a[2]]=c[a[3]]/c[a[4]];else local b=a[2];local d=c[a[3]];c[b+1]=d;c[b]=d[a[4]];end;elseif f<=38 then if f>37 then c[a[2]]=l[a[3]];else local a=a[2]c[a]=c[a]()end;elseif f==39 then local b=a[2]local e={c[b](c[b+1])};local d=0;for a=b,a[4]do d=d+1;c[a]=e[d];end else e[a[3]]=c[a[2]];end;elseif f<=47 then if f<=43 then if f<=41 then c[a[2]]={};elseif f>42 then local a=a[2]c[a](c[a+1])else b=a[3];end;elseif f<=45 then if f==44 then local g;local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];g=c[a[3]];c[f+1]=g;c[f]=g[a[4]];else if(c[a[2]]<a[4])then b=b+1;else b=a[3];end;end;elseif f>46 then local a=a[2]c[a]=c[a](c[a+1])else e[a[3]]=c[a[2]];end;elseif f<=50 then if f<=48 then local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end elseif f>49 then c[a[2]]=a[3];else if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;end;elseif f<=52 then if f==51 then local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];if not c[a[2]]then b=b+1;else b=a[3];end;else local b=a[2]local d,a=j(c[b](g(c,b+1,a[3])))h=a+b-1 local a=0;for b=b,h do a=a+1;c[b]=d[a];end;end;elseif f>53 then c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];else c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]+a[4];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f<=82 then if f<=68 then if f<=61 then if f<=57 then if f<=55 then local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;elseif f==56 then local b=a[2]c[b](g(c,b+1,a[3]))else c[a[2]]=l[a[3]];end;elseif f<=59 then if f==58 then c[a[2]]=c[a[3]]+a[4];else c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];end;elseif f>60 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else local e=a[2];local f=a[4];local d=e+2 local e={c[e](c[e+1],c[d])};for a=1,f do c[d+a]=e[a];end;local e=e[1]if e then c[d]=e b=a[3];else b=b+1;end;end;elseif f<=64 then if f<=62 then local g;local h;local f;c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=a[3];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]h={c[f](c[f+1])};g=0;for a=f,a[4]do g=g+1;c[a]=h[g];end b=b+1;a=d[b];b=a[3];elseif f>63 then c[a[2]]=c[a[3]]*a[4];else c[a[2]]=c[a[3]]+a[4];end;elseif f<=66 then if f>65 then c[a[2]][c[a[3]]]=c[a[4]];else if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;end;elseif f>67 then c[a[2]][a[3]]=c[a[4]];else do return c[a[2]]end end;elseif f<=75 then if f<=71 then if f<=69 then c[a[2]]();elseif f==70 then c[a[2]]=c[a[3]]/c[a[4]];else c[a[2]][a[3]]=a[4];end;elseif f<=73 then if f>72 then c[a[2]]();else local h;local f;f=a[2]c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];end;elseif f==74 then local a=a[2]c[a]=c[a](c[a+1])else do return end;end;elseif f<=78 then if f<=76 then c[a[2]]=c[a[3]]-c[a[4]];elseif f==77 then local d=a[3];local b=c[d]for a=d+1,a[4]do b=b..c[a];end;c[a[2]]=b;else local d=a[2];local f=c[d+2];local e=c[d]+f;c[d]=e;if(f>0)then if(e<=c[d+1])then b=a[3];c[d+3]=e;end elseif(e>=c[d+1])then b=a[3];c[d+3]=e;end end;elseif f<=80 then if f==79 then c[a[2]]=(a[3]~=0);else if(c[a[2]]<c[a[4]])then b=a[3];else b=b+1;end;end;elseif f==81 then c[a[2]]=#c[a[3]];else c[a[2]]=c[a[3]][a[4]];end;elseif f<=96 then if f<=89 then if f<=85 then if f<=83 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];elseif f>84 then c[a[2]]=c[a[3]]-c[a[4]];else local f;local g;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]][a[3]]=a[4];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];g=a[2];f=c[a[3]];c[g+1]=f;c[g]=f[a[4]];end;elseif f<=87 then if f==86 then c[a[2]]=k(n[a[3]],nil,e);else c[a[2]]=c[a[3]];end;elseif f==88 then local f;c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](c[f+1])b=b+1;a=d[b];c[a[2]][c[a[3]]]=c[a[4]];else local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][c[a[4]]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];end;elseif f<=92 then if f<=90 then if(c[a[2]]<=c[a[4]])then b=b+1;else b=a[3];end;elseif f==91 then c[a[2]]=c[a[3]];else local d=a[2];local e=c[d]local f=c[d+2];if(f>0)then if(e>c[d+1])then b=a[3];else c[d+3]=e;end elseif(e<c[d+1])then b=a[3];else c[d+3]=e;end end;elseif f<=94 then if f==93 then local a=a[2]c[a](c[a+1])else if c[a[2]]then b=b+1;else b=a[3];end;end;elseif f==95 then if(c[a[2]]<c[a[4]])then b=b+1;else b=a[3];end;else c[a[2]]=c[a[3]][c[a[4]]];end;elseif f<=103 then if f<=99 then if f<=97 then if not c[a[2]]then b=b+1;else b=a[3];end;elseif f==98 then local f;local i;local k,m;local l;local f;c[a[2]]={};b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];l=c[a[3]];c[f+1]=l;c[f]=l[a[4]];b=b+1;a=d[b];f=a[2]k,m=j(c[f](c[f+1]))h=m+f-1 i=0;for a=f,h do i=i+1;c[a]=k[i];end;b=b+1;a=d[b];f=a[2]k={c[f](g(c,f+1,h))};i=0;for a=f,a[4]do i=i+1;c[a]=k[i];end b=b+1;a=d[b];b=a[3];else local f;local i;local k,m;local l;local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2];l=c[a[3]];c[f+1]=l;c[f]=l[a[4]];b=b+1;a=d[b];f=a[2]k,m=j(c[f](c[f+1]))h=m+f-1 i=0;for a=f,h do i=i+1;c[a]=k[i];end;b=b+1;a=d[b];f=a[2]k={c[f](g(c,f+1,h))};i=0;for a=f,a[4]do i=i+1;c[a]=k[i];end b=b+1;a=d[b];b=a[3];end;elseif f<=101 then if f>100 then local h;local f;c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];f=a[2];h=c[a[3]];c[f+1]=h;c[f]=h[a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]/c[a[4]];b=b+1;a=d[b];f=a[2]c[f]=c[f](g(c,f+1,a[3]))b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else c[a[2]]=e[a[3]];end;elseif f==102 then c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]][a[4]];b=b+1;a=d[b];c[a[2]][a[3]]=c[a[4]];else local h=n[a[3]];local g;local f={};g=p({},{__index=function(b,a)local a=f[a];return a[1][a[2]];end,__newindex=function(c,a,b)local a=f[a]a[1][a[2]]=b;end;});for e=1,a[4]do b=b+1;local a=d[b];if a[1]==87 then f[e-1]={c,a[3]};else f[e-1]={l,a[3]};end;m[#m+1]=f;end;c[a[2]]=k(h,g,e);end;elseif f<=106 then if f<=104 then local a=a[2]c[a]=c[a]()elseif f>105 then local f;e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];f=a[2]c[f](c[f+1])b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];c[a[2]]=c[a[3]]-c[a[4]];b=b+1;a=d[b];e[a[3]]=c[a[2]];b=b+1;a=d[b];c[a[2]]=e[a[3]];b=b+1;a=d[b];e[a[3]]=c[a[2]];else local e=a[2];local f=a[4];local d=e+2 local e={c[e](c[e+1],c[d])};for a=1,f do c[d+a]=e[a];end;local e=e[1]if e then c[d]=e b=a[3];else b=b+1;end;end;elseif f<=108 then if f>107 then if(c[a[2]]<a[4])then b=b+1;else b=a[3];end;else local b=a[2]c[b]=c[b](g(c,b+1,a[3]))end;elseif f==109 then if not c[a[2]]then b=b+1;else b=a[3];end;else c[a[2]]=e[a[3]];end;b=b+1;end;end);end;return k(true,{},q())();end)(string.byte,table.insert,setmetatable);
+    end)
+Ender.MouseButton1Down:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/hv190Xiq"))()
+    end)    
+    Nameless.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5688101100")[1].Source)()
+    end)
+   AntiAFK.MouseButton1Down:connect(function()
+    local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+
+warn("Anti-Afk has Loaded")
+end) 
+WalkonWalls.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xuHGNQ1H'))()
+end)
+CatDance.MouseButton1Down:connect(function()
+    
+function LoadLibrary(a)
+    return loadstring(game:HttpGet("https://pastebin.com/raw/UfzKgS6T", true))()
+end
+
+loadstring(game:GetObjects("rbxassetid://4480871791")[1].Source)()
+
+-----------------------------------------------
+--DANCE TO THE BEAT, WAVE YOUR HANDS TOGETHER--
+------------------------------------------------
+--I wanted to make something like Heavy Dance.--
+-- ~Sugarie									  --
+------------------------------------------------
+
+wait(1/60)
+Effects = { }
+local Player = game:service'Players'.localPlayer
+local chara = workspace.CloneCharacter
+local Humanoid = chara:FindFirstChildOfClass("Humanoid")
+local Mouse = Player:GetMouse()
+local LeftArm = chara["Left Arm"]
+local RightArm = chara["Right Arm"]
+local LeftLeg = chara["Left Leg"]
+local RightLeg = chara["Right Leg"]
+local Head = chara.Head
+local Torso = chara.Torso
+local Camera = game.Workspace.CurrentCamera
+local RootPart = chara.HumanoidRootPart
+local RootJoint = RootPart.RootJoint
+local attack = false
+local Anim = 'Idle'
+local attacktype = 1
+local delays = false
+local play = true
+local targetted = nil
+local Torsovelocity = (RootPart.Velocity * Vector3.new(1, 0, 1)).magnitude 
+local velocity = RootPart.Velocity.y
+local sine = 0
+local change = 1
+local doe = 0
+local Create = LoadLibrary("RbxUtility").Create
+Humanoid.WalkSpeed = 2
+
+Humanoid.Animator.Parent = nil
+chara.Animate.Parent = nil
+
+local newMotor = function(part0, part1, c0, c1)
+	local w = Create('Motor'){
+		Parent = part0,
+		Part0 = part0,
+		Part1 = part1,
+		C0 = c0,
+		C1 = c1,
+	}
+	return w
+end
+
+function clerp(a, b, t)
+	return a:lerp(b, t)
+end
+
+RootCF = CFrame.fromEulerAnglesXYZ(-1.57, 0, 3.14)
+NeckCF = CFrame.new(0, 1, 0, -1, -0, -0, 0, 0, 1, 0, 1, 0)
+
+local RW = newMotor(Torso, RightArm, CFrame.new(1.5, 0, 0), CFrame.new(0, 0, 0)) 
+local LW = newMotor(Torso, LeftArm, CFrame.new(-1.5, 0, 0), CFrame.new(0, 0, 0))
+local RH = newMotor(Torso, RightLeg, CFrame.new(.5, -2, 0), CFrame.new(0, 0, 0))
+local LH = newMotor(Torso, LeftLeg, CFrame.new(-.5, -2, 0), CFrame.new(0, 0, 0))
+RootJoint.C1 = CFrame.new(0, 0, 0)
+RootJoint.C0 = CFrame.new(0, 0, 0)
+Torso.Neck.C1 = CFrame.new(0, 0, 0)
+Torso.Neck.C0 = CFrame.new(0, 1.5, 0)
+
+local rarmc1 = RW.C1
+local larmc1 = LW.C1
+local rlegc1 = RH.C1
+local llegc1 = LH.C1
+
+local resetc1 = false
+
+function PlayAnimationFromTable(table, speed, bool)
+	RootJoint.C0 = clerp(RootJoint.C0, table[1], speed) 
+	Torso.Neck.C0 = clerp(Torso.Neck.C0, table[2], speed) 
+	RW.C0 = clerp(RW.C0, table[3], speed) 
+	LW.C0 = clerp(LW.C0, table[4], speed) 
+	RH.C0 = clerp(RH.C0, table[5], speed) 
+	LH.C0 = clerp(LH.C0, table[6], speed) 
+	if bool == true then
+		if resetc1 == false then
+			resetc1 = true
+			RootJoint.C1 = RootJoint.C1
+			Torso.Neck.C1 = Torso.Neck.C1
+			RW.C1 = rarmc1
+			LW.C1 = larmc1
+			RH.C1 = rlegc1
+			LH.C1 = llegc1
+		end
+	end
+end
+
+ArtificialHB = Instance.new("BindableEvent", script)
+ArtificialHB.Name = "Heartbeat"
+script:WaitForChild("Heartbeat")
+frame = 0.03333333333333
+tf = 0
+allowframeloss = false
+tossremainder = false
+lastframe = tick()
+script.Heartbeat:Fire()
+game:GetService("RunService").Heartbeat:connect(function(s, p)
+  tf = tf + s
+  if tf >= frame then
+    if allowframeloss then
+      script.Heartbeat:Fire()
+      lastframe = tick()
+    else
+      for i = 1, math.floor(tf / frame) do
+        script.Heartbeat:Fire()
+      end
+      lastframe = tick()
+    end
+    if tossremainder then
+      tf = 0
+    else
+      tf = tf - frame * math.floor(tf / frame)
+    end
+  end
+end)
+function swait(num)
+  if num == 0 or num == nil then
+    ArtificialHB.Event:wait()
+  else
+    for i = 0, num do
+      ArtificialHB.Event:wait()
+    end
+  end
+end
+
+function RemoveOutlines(part)
+	part.TopSurface, part.BottomSurface, part.LeftSurface, part.RightSurface, part.FrontSurface, part.BackSurface = 10, 10, 10, 10, 10, 10
+end
+
+sndid = "rbxassetid://176322684"
+sndpi = .7
+saun = Instance.new("Sound",Head)
+saun.Volume = 1
+saun.Pitch = sndpi
+saun.SoundId = sndid
+saun.Name = "a"
+saun.Looped = true
+saun:Play()
+
+dant = 0
+
+Mouse.KeyDown:connect(function(key)
+key=key:lower()
+if key=="e" then
+if dant == 0 then
+dant = 1
+sndid = "rbxassetid://448668887"
+sndpi = 1
+elseif dant == 1 then
+dant = 0
+sndid = "rbxassetid://176322684"
+sndpi = .7
+end
+saun.Pitch = sndpi
+saun.SoundId = sndid
+saun:Play()
+end
+end)
+
+while true do
+if Head:FindFirstChild("a")==nil then
+saun = Instance.new("Sound",Head)
+saun.Volume = 1
+saun.Pitch = sndpi
+saun.SoundId = sndid
+saun.Name = "a"
+saun.Looped = true
+saun:Play()
+end
+if dant == 0 then
+for i = 0, 1, 0.25 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0, 1.4999938, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0.833580494, 1.12330246, 6.2584877e-07, -0.342020094, -1.63087847e-07, 0.939692676, 0.321394086, -0.939692557, 0.116977669, 0.883022249, 0.342020333, 0.321393758),
+CFrame.new(-0.833579302, 1.12330115, -1.49011612e-07, -0.342019886, 4.07719511e-08, -0.939692736, -0.321392894, -0.939693034, 0.116977319, -0.883022726, 0.342019141, 0.321393728),
+CFrame.new(0.5, -2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(-0.5, -2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+}, .5, false)
+end
+for i = 0, 1, 0.25 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(-0.268402338, -0.187939167, 0, 0.939692736, 0.342019886, 0, -0.342019916, 0.939692736, 0, 0, 0, 1),
+CFrame.new(-0.409892142, 1.36144388, 0, 0.766044796, -0.642787218, 0, 0.642787218, 0.766044855, 0, 0, 0, 1),
+CFrame.new(0.535924554, 1.16478181, 3.87430191e-07, -0.431316972, 0.32139343, 0.843013644, 0.185034022, -0.883022308, 0.431316644, 0.883022249, 0.342020333, 0.321393758),
+CFrame.new(-1.03069234, 0.594579875, -2.38418579e-07, -0.211470842, 0.321393758, -0.923030972, -0.418988168, -0.883022726, -0.211470872, -0.883022726, 0.342019141, 0.321393728),
+CFrame.new(0.951213062, -1.54518354, 0, 0.866025686, -0.499999642, 0, 0.499999642, 0.866025686, 0, 0, 0, 1),
+CFrame.new(0.214191973, -1.8503952, 0, 0.766044796, -0.642787218, 0, 0.642787218, 0.766044855, 0, 0, 0, 1),
+}, .5, false)
+end
+for i = 0, 1, 0.25 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0, 1.4999938, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0.833580494, 1.12330246, 6.2584877e-07, -0.342020094, -1.63087847e-07, 0.939692676, 0.321394086, -0.939692557, 0.116977669, 0.883022249, 0.342020333, 0.321393758),
+CFrame.new(-0.833579302, 1.12330115, -1.49011612e-07, -0.342019886, 4.07719511e-08, -0.939692736, -0.321392894, -0.939693034, 0.116977319, -0.883022726, 0.342019141, 0.321393728),
+CFrame.new(0.5, -2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(-0.5, -2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+}, .5, false)
+end
+for i = 0, 1, 0.25 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0.268400908, -0.187940732, 0, 0.939692855, -0.342019945, 0, 0.342019975, 0.939692795, 0, 0, 0, 1),
+CFrame.new(0.409947664, 1.36144304, 0, 0.766039729, 0.642798781, 0, -0.642787337, 0.766043961, 0, 0, 0, 1),
+CFrame.new(1.03070939, 0.594575524, -2.2649765e-06, -0.21146287, -0.321413547, 0.923025966, 0.418989599, -0.883016884, -0.21149224, 0.883023918, 0.342015505, 0.321394145),
+CFrame.new(-0.535904408, 1.16477537, -3.27825546e-07, -0.431322306, -0.321409196, -0.843005002, -0.185032129, -0.883013964, 0.431334615, -0.883019984, 0.342027217, 0.321392536),
+CFrame.new(-0.214235365, -1.8503921, 0, 0.766041398, 0.64279145, 0, -0.64279151, 0.766041279, 0, 0, 0, 1),
+CFrame.new(-0.965987146, -1.57677674, 0, 0.866024733, 0.500001609, 0, -0.500001609, 0.866024613, 0, 0, 0, 1),
+}, .5, false)
+end
+elseif dant == 1 then
+for i = 0, 1, 0.1 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0, 1.5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(1.09999847, 1.1920929e-07, -0.600001514, 0, 0, 1, 0.173647985, 0.984807849, 0, -0.984807849, 0.173647985, 0),
+CFrame.new(-1.09999847, 1.1920929e-07, -0.600001514, 0, 0, -1, -0.173647985, 0.984807849, 0, 0.984807849, 0.173647985, 0),
+CFrame.new(0.5, -1.99999881, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(-0.5, -1.99999881, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+}, .2, false)
+end
+for i = 0, 1, 0.1 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(-0.0436433926, 0, -0.113613628, 0.64278698, 0, -0.766044974, 0, 1, 0, 0.766044974, 0, 0.64278698),
+CFrame.new(0, 1.49999809, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(1.09998989, 1, -0.599998474, 0, 0, 1, 1, 0, 0, 0, 1, 0),
+CFrame.new(-1.10000229, 1, -0.599998474, 0, 0, -1, -1, 0, 0, 0, 1, 0),
+CFrame.new(0.499988556, -1.99999797, -3.81469727e-06, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(-0.500012398, -1.78038144, -0.819608092, 1, 0, 1.49011612e-08, 0, 0.499999046, -0.866025984, 0, 0.866026044, 0.499999046),
+}, .2, false)
+end
+for i = 0, 1, 0.1 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(0, 1.5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(1.09999847, 1.1920929e-07, -0.600001514, 0, 0, 1, 0.173647985, 0.984807849, 0, -0.984807849, 0.173647985, 0),
+CFrame.new(-1.09999847, 1.1920929e-07, -0.600001514, 0, 0, -1, -0.173647985, 0.984807849, 0, 0.984807849, 0.173647985, 0),
+CFrame.new(0.5, -1.99999881, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+CFrame.new(-0.5, -1.99999881, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+}, .2, false)
+end
+for i = 0, 1, 0.1 do
+swait()
+PlayAnimationFromTable({
+CFrame.new(0.261404335, 0, -0.167939946, 0.76604414, 0, 0.642788053, 0, 1, 0, -0.642788053, 0, 0.76604414),
+CFrame.new(0, 1.49999285, 0, 1.00000012, 0, 0, 0, 1, 0, 0, 0, 1.00000012),
+CFrame.new(1.10000622, 0.999999046, -0.599996626, 0, 0, 1.00000012, 1, 0, 0, 0, 1.00000012, 0),
+CFrame.new(-1.09999859, 0.999999046, -0.59999758, 0, 0, -1.00000012, -1, 0, 0, 0, 1.00000012, 0),
+CFrame.new(0.500000179, -1.78038287, -0.81961149, 1.00000012, -2.98023224e-08, 2.98023224e-08, 0, 0.499999046, -0.866025925, 0, 0.866025984, 0.499999106),
+CFrame.new(-0.500003874, -1.99999893, 3.81469772e-06, 1.00000012, 0, 0, 0, 1, 0, 0, 0, 1.00000012),
+}, .2, false)
+end
+end
+end
+end)
+
+
+
